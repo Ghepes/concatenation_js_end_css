@@ -35,7 +35,7 @@ npm install compression
 ````
 
 "engines": {
-  "node": ">=18.0.0"
+  "node": ">=22.0.0"
 }
 ````
 
