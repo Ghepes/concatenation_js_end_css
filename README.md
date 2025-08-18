@@ -27,7 +27,7 @@ npm install compression
 ````
 ### For production to package.json, you might want to add:
 ````
-json
+
 "engines": {
   "node": ">=18.0.0"
 }
@@ -104,16 +104,3 @@ app.listen(3000, () => {
 │   ├── z.css
 
 
-
-### For list on Vercel, add vercel.json:
-````
-{
-  "version": 2,
-  "builds": [
-    { "src": "api/index.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/api/index.js" }
-  ]
-}
-````
