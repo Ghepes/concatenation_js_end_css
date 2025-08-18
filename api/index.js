@@ -1,17 +1,19 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const crypto = require('crypto'); // Asigură-te că crypto este importat
 const app = express();
 
-app.get('/concat', (req, res) => {
+// Ruta este acum mai specifică și citește parametrul :files
+app.get('/concat/:files', (req, res) => {
   try {
-    const filesQuery = req.query.files;
-    if (!filesQuery) {
-      return res.status(400).send('Missing "files" query parameter.');
+    // Preluăm lista de fișiere din parametrul URL-ului, nu din query
+    const filesString = req.params.files;
+    if (!filesString) {
+      return res.status(400).send('No files specified in URL.');
     }
 
-    const files = filesQuery.split(',');
+    // Separăm fișierele folosind caracterul '+'
+    const files = filesString.split('+');
 
     if (files.length === 0 || files[0] === '') {
       return res.status(400).send('No valid files requested');
@@ -38,18 +40,19 @@ app.get('/concat', (req, res) => {
       const filePath = path.join(projectRoot, 'public', file);
 
       if (fs.existsSync(filePath)) {
-        const fileHash = crypto.createHash('md5').update(file).digest('hex').substring(0, 16);
-        
-        // --- MODIFICARE AICI ---
-        // Adăugăm un separator specific pentru fiecare tip de fișier
+        let separator = '';
+
+        // --- AICI CONSTRUIM NOUL SEPARATOR ---
+        // Construim separatorul exact în formatul cerut de tine
         if (contentType === 'application/javascript') {
-            // Separator de siguranță pentru JavaScript
-            output += `;\n;// __FILE_CONTENT_FOR__:${fileHash}.js\n`;
+          separator = `;// __FILE_CONTENT_FOR__:${file}___\n`;
         } else if (contentType === 'text/css') {
-            // Separator de debugging pentru CSS
-            output += `\n/* __FILE_CONTENT_FOR__:${fileHash}.css */\n`;
+          // Notă: Punctul și virgula (;) nu este standard la începutul CSS, 
+          // dar majoritatea browserelor îl vor ignora. Îl adăugăm conform cerinței.
+          separator = `;/* __FILE_CONTENT_FOR__:${file}___ */\n`;
         }
         
+        output += separator;
         output += fs.readFileSync(filePath, 'utf8').trim() + '\n';
       } else {
         missingFiles.push(file);
@@ -62,7 +65,7 @@ app.get('/concat', (req, res) => {
 
     res.setHeader('Content-Type', contentType);
     res.setHeader('Cache-Control', 'public, max-age=86400');
-    res.send(output.trim()); // Folosim trim() la final pentru a curăța output-ul
+    res.send(output.trim());
   } catch (err) {
     console.error('CRITICAL ERROR:', err);
     res.status(500).send(`Server Error: ${err.message}`);
