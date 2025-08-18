@@ -4,13 +4,14 @@ const path = require('path');
 const crypto = require('crypto');
 const app = express();
 
-// Middleware pentru a gestiona TOATE fișierele JS (inclusiv cele cu caractere speciale în URL)
-app.get(/^\/(.+\.js)(?:\+(.+\.js))*$/, (req, res) => {
+// Middleware pentru a gestiona concatenarea fișierelor JS
+// Regex-ul a fost simplificat deoarece vercel.json face deja o pre-filtrare
+app.get('/*', (req, res) => {
   try {
     const requestedPath = decodeURIComponent(req.path);
-    const files = requestedPath.split('+')
-      .filter(f => f.endsWith('.js'))
-      .map(f => f.replace(/^\//, ''));
+    // Eliminăm slash-ul de la început
+    const files = requestedPath.substring(1).split('+')
+      .filter(f => f.endsWith('.js'));
 
     if (files.length === 0) {
       return res.status(400).send('No valid JS files requested');
@@ -20,7 +21,9 @@ app.get(/^\/(.+\.js)(?:\+(.+\.js))*$/, (req, res) => {
     const missingFiles = [];
 
     for (const file of files) {
-      const filePath = path.join(__dirname, 'public', file);
+      // Calea corectă către folderul 'public' în mediul Vercel
+      const filePath = path.join(process.cwd(), 'public', file);
+
       if (fs.existsSync(filePath)) {
         const fileHash = crypto.createHash('md5').update(file).digest('hex').substring(0, 16);
         output += `;// __FILE_CONTENT_FOR__:${fileHash}.js\n`;
@@ -42,11 +45,5 @@ app.get(/^\/(.+\.js)(?:\+(.+\.js))*$/, (req, res) => {
   }
 });
 
-// Fallback
-app.use((req, res) => {
-  res.status(404).send('Not found');
-});
-
-app.listen(3000, () => {
-  console.log('Server running at http://localhost:3000');
-});
+// Nu mai avem nevoie de app.listen. În schimb, exportăm aplicația.
+module.exports = app;
