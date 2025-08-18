@@ -2,19 +2,12 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/(.*\\+.*\\.js)",
+      "source": "/:path((?!api/).*\\.js.*)",
       "destination": "/api/index"
     },
     {
-      "source": "/(.*\\+.*\\.css)",
-      "destination": "/api/index"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*\\+.*\\.js|.*\\+.*\\.css)",
-      "dest": "/api/index"
-    }
-  ]
+  "source": "/:path((?!api/).*\\.css.*)",
+  "destination": "/api/index"
 }
-        
+    ]
+    }
