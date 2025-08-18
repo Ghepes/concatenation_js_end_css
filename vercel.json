@@ -2,7 +2,7 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/concat",
+      "source": "/:path((?!api/).*\\.(js|css).*)",
       "destination": "/api/index"
     }
   ]
