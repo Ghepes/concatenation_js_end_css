@@ -6,22 +6,31 @@ const app = express();
 
 // Aici este modificarea: am înlocuit app.get() cu app.use()
 app.use('/', (req, res) => {
-  // Verificăm dacă cererea este pentru un fișier .js
-  if (!req.path.includes('.js')) {
-    return res.status(404).send('Not a JS file request.');
-  }
-
   try {
+    // Verificăm dacă cererea este pentru un fișier .js sau .css
     const requestedPath = decodeURIComponent(req.path);
     console.log(`Request received for path: ${requestedPath}`);
 
-    const files = requestedPath.substring(1).split('+')
-      .filter(f => f.endsWith('.js'));
-    
+    let files = [];
+    let contentType = '';
+    let fileExtension = '';
+
+    if (requestedPath.includes('.js')) {
+      files = requestedPath.substring(1).split('+').filter(f => f.endsWith('.js'));
+      contentType = 'application/javascript';
+      fileExtension = '.js';
+    } else if (requestedPath.includes('.css')) {
+      files = requestedPath.substring(1).split('+').filter(f => f.endsWith('.css'));
+      contentType = 'text/css';
+      fileExtension = '.css';
+    } else {
+      return res.status(404).send('Not a JS or CSS file request.');
+    }
+
     console.log('Files to process:', files);
 
     if (files.length === 0) {
-      return res.status(400).send('No valid JS files requested');
+      return res.status(400).send(`No valid ${fileExtension} files requested`);
     }
 
     let output = '';
@@ -36,7 +45,7 @@ app.use('/', (req, res) => {
       if (fs.existsSync(filePath)) {
         console.log(`SUCCESS: Found file ${file}`);
         const fileHash = crypto.createHash('md5').update(file).digest('hex').substring(0, 16);
-        output += `;// __FILE_CONTENT_FOR__:${fileHash}.js\n`;
+        output += `;// __FILE_CONTENT_FOR__:${fileHash}${fileExtension}\n`;
         output += fs.readFileSync(filePath, 'utf8').trim() + '\n\n';
       } else {
         console.error(`ERROR: File not found at ${filePath}`);
@@ -48,7 +57,7 @@ app.use('/', (req, res) => {
       return res.status(404).send(`Missing files: ${missingFiles.join(', ')}`);
     }
 
-    res.setHeader('Content-Type', 'application/javascript');
+    res.setHeader('Content-Type', contentType);
     res.setHeader('Cache-Control', 'public, max-age=86400');
     res.send(output);
   } catch (err) {
