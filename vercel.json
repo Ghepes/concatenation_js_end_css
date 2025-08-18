@@ -2,7 +2,11 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/concat/:files(.*)",
+      "source": "/css/:files(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/js/:files(.*)",
       "destination": "/api/index"
     }
   ]
