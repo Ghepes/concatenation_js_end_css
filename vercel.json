@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.js": {
-      "includeFiles": "public/**"
-    }
-  },
   "rewrites": [
     {
-      "source": "/js/:files(.*)",
+      "source": "/:path((?!api/).*\\.(js|css).*)",
       "destination": "/api/index"
     }
   ]
