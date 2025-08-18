@@ -4,10 +4,8 @@ const path = require('path');
 const crypto = require('crypto');
 const app = express();
 
-// Aici este modificarea: am înlocuit app.get() cu app.use()
 app.use('/', (req, res) => {
   try {
-    // Verificăm dacă cererea este pentru un fișier .js sau .css
     const requestedPath = decodeURIComponent(req.path);
     console.log(`Request received for path: ${requestedPath}`);
 
@@ -45,7 +43,15 @@ app.use('/', (req, res) => {
       if (fs.existsSync(filePath)) {
         console.log(`SUCCESS: Found file ${file}`);
         const fileHash = crypto.createHash('md5').update(file).digest('hex').substring(0, 16);
-        output += `;// __FILE_CONTENT_FOR__:${fileHash}${fileExtension}\n`;
+
+        // --- MODIFICARE AICI ---
+        // Construim separatorul corect în funcție de tipul fișierului
+        if (fileExtension === '.js') {
+          output += `;// __FILE_CONTENT_FOR__:${fileHash}${fileExtension}\n`;
+        } else if (fileExtension === '.css') {
+          output += `/* __FILE_CONTENT_FOR__:${fileHash}${fileExtension} */\n`;
+        }
+        
         output += fs.readFileSync(filePath, 'utf8').trim() + '\n\n';
       } else {
         console.error(`ERROR: File not found at ${filePath}`);
