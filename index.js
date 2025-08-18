@@ -3,8 +3,11 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 
-// Serve static files normally
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve static files from public directory
+app.use(express.static(path.join(__dirname, '..', 'public')));
+// from local or vm
+/// app.use('/public', express.static(path.join(__dirname, 'public')));
+/// app.use(express.static(path.join(__dirname, 'public')));
 
 // Handle JS file combinations
 app.get(/^\/([a-zA-Z0-9_-]+\.js\+)+[a-zA-Z0-9_-]+\.js$/, (req, res) => {
@@ -45,11 +48,18 @@ app.get(/^\/([a-zA-Z0-9_-]+\.js\+)+[a-zA-Z0-9_-]+\.js$/, (req, res) => {
   }
 });
 
-// Fallback for other routes
-app.use((req, res) => {
-  res.status(404).send('Not found');
-});
 
-app.listen(3000, () => {
-  console.log('Server running at http://localhost:3000');
-});
+
+// LOCAL or vm
+// Fallback for other routes
+/// app.use((req, res) => {
+///  res.status(404).send('Not found');
+///});
+
+/// app.listen(3000, () => {
+///  console.log('Server running at http://localhost:3000');
+///});
+
+
+// Instead of listen, export handler vercel
+module.exports = app;

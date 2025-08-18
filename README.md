@@ -102,3 +102,18 @@ app.listen(3000, () => {
 │   ├── x.css
 │   ├── y.css
 │   ├── z.css
+
+
+
+### For list on Vercel, add vercel.json:
+````
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/index.js" }
+  ]
+}
+````
