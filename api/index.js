@@ -15,11 +15,10 @@ app.get('/css/:files', (req, res) => {
       if (!file.endsWith('.css')) {
         return res.status(400).send(`Invalid file type in CSS request: ${file}`);
       }
-        
+      
       const filePath = path.join(process.cwd(), 'public', file);
 
       if (fs.existsSync(filePath)) {
-        // Construim separatorul specific pentru CSS
         const separator = `;/* __FILE_CONTENT_FOR__:${file}___ */\n`;
         output += separator;
         output += fs.readFileSync(filePath, 'utf8').trim() + '\n';
@@ -52,11 +51,10 @@ app.get('/js/:files', (req, res) => {
       if (!file.endsWith('.js')) {
         return res.status(400).send(`Invalid file type in JS request: ${file}`);
       }
-        
+      
       const filePath = path.join(process.cwd(), 'public', file);
 
       if (fs.existsSync(filePath)) {
-        // Construim separatorul specific pentru JS
         const separator = `;// __FILE_CONTENT_FOR__:${file}___\n`;
         output += separator;
         output += fs.readFileSync(filePath, 'utf8').trim() + '\n';
