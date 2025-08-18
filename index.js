@@ -3,22 +3,27 @@ const fs = require("fs");
 const path = require("path");
 const app = express();
 
-// Serve static files din /public
+// servește static /public
 app.use(express.static(path.join(__dirname, "..", "public")));
 
-// Combina JS
-app.get(/^\/.+\.js( ?\+? ?.+\.js)*$/, (req, res) => {
-  // reconstruiește cu split pe [+ sau spațiu]
+// handler concatenare JS & CSS
+app.get(/^\/(.+\.(js|css)(\+.+\.(js|css))+)/, (req, res) => {
+  // normalizează (acceptă și +, și spațiu – pt. Vercel)
   const requestedPath = decodeURIComponent(req.url.split("?")[0]);
 
   const files = requestedPath
     .replace(/^\//, "")
-    .split(/[\+\s]+/) // aici acceptă și `+`, și spațiu
-    .filter(f => f.endsWith(".js"));
-
+    .split(/[\+\s]+/)
+    .filter(f => f.endsWith(".js") || f.endsWith(".css"));
 
   if (files.length === 0) {
-    return res.status(400).send("No valid JS files requested");
+    return res.status(400).send("No valid files requested");
+  }
+
+  // detectăm tipul (toate .js sau toate .css)
+  const ext = path.extname(files[0]);
+  if (!files.every(f => path.extname(f) === ext)) {
+    return res.status(400).send("Cannot mix JS and CSS in one request");
   }
 
   let output = "";
@@ -28,7 +33,7 @@ app.get(/^\/.+\.js( ?\+? ?.+\.js)*$/, (req, res) => {
     for (const file of files) {
       const filePath = path.join(__dirname, "..", "public", file);
       if (fs.existsSync(filePath)) {
-        output += fs.readFileSync(filePath, "utf8") + "\n;\n";
+        output += fs.readFileSync(filePath, "utf8") + "\n";
       } else {
         missingFiles.push(file);
       }
@@ -38,7 +43,10 @@ app.get(/^\/.+\.js( ?\+? ?.+\.js)*$/, (req, res) => {
       return res.status(404).send(`Missing files: ${missingFiles.join(", ")}`);
     }
 
-    res.setHeader("Content-Type", "application/javascript");
+    res.setHeader(
+      "Content-Type",
+      ext === ".js" ? "application/javascript" : "text/css"
+    );
     res.setHeader("Cache-Control", "public, max-age=86400");
     res.send(output);
   } catch (err) {
@@ -46,6 +54,4 @@ app.get(/^\/.+\.js( ?\+? ?.+\.js)*$/, (req, res) => {
   }
 });
 
-
-// Export
 module.exports = app;
