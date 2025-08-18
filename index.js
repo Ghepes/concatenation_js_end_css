@@ -10,8 +10,9 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 /// app.use(express.static(path.join(__dirname, 'public')));
 
 // Handle JS file combinations
-app.get(/^\/([a-zA-Z0-9_-]+\.js\+)+[a-zA-Z0-9_-]+\.js$/, (req, res) => {
-  const requestedPath = decodeURIComponent(req.path);
+app.get(/^\/.+\.js(\+.+\.js)+$/, (req, res) => {
+const requestedPath = decodeURIComponent(req.url.split('?')[0]); 
+
   
   const files = requestedPath
     .split('+')
