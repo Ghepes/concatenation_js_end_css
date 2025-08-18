@@ -7,10 +7,6 @@
   },
   "rewrites": [
     {
-      "source": "/css/:files(.*)",
-      "destination": "/api/index"
-    },
-    {
       "source": "/js/:files(.*)",
       "destination": "/api/index"
     }

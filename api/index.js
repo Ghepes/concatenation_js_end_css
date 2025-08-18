@@ -3,47 +3,42 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 
-const handler = (req, res) => {
-    try {
-        const CWD = process.cwd(); // Directorul de lucru curent (de obicei /var/task)
-        const filesInCWD = fs.readdirSync(CWD);
+// --- Handler DEDICAT DOAR PENTRU JAVASCRIPT ---
+app.get('/js/:files', (req, res) => {
+  try {
+    const filesString = req.params.files;
+    const files = filesString.split('+');
+    let output = '';
+    const missingFiles = [];
 
-        // Încercăm să citim și subfolderul 'public', dacă există
-        let filesInPublic = 'Nu a fost găsit sau nu este un director.';
-        try {
-            const publicPath = path.join(CWD, 'public');
-            if (fs.statSync(publicPath).isDirectory()) {
-                filesInPublic = fs.readdirSync(publicPath).join('\n- ');
-            }
-        } catch (e) {
-            // Ignorăm eroarea dacă folderul 'public' nu există
-        }
+    for (const file of files) {
+      // Verificăm că primim doar fișiere .js
+      if (!file.endsWith('.js')) {
+        return res.status(400).send(`Invalid file type in JS request: ${file}`);
+      }
+      
+      const filePath = path.join(process.cwd(), 'public', file);
 
-        const debugMessage = `
---- INFORMAȚII DE DEBUG VERCEL ---
-
-Directorul de Lucru (process.cwd()):
-${CWD}
-
-Fișiere și Foldere Găsite în Directorul de Lucru:
-- ${filesInCWD.join('\n- ')}
-
------------------------------------------
-
-Conținutul folderului 'public' (dacă există):
-- ${filesInPublic}
-        `;
-
-        res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-        res.status(200).send(debugMessage.trim());
-
-    } catch (err) {
-        res.status(500).send(`A apărut o eroare în timpul investigării: ${err.message}`);
+      if (fs.existsSync(filePath)) {
+        // Adăugăm separatorul specific pentru JS
+        const separator = `;// __FILE_CONTENT_FOR__:${file}___\n`;
+        output += separator;
+        output += fs.readFileSync(filePath, 'utf8').trim() + '\n';
+      } else {
+        missingFiles.push(file);
+      }
     }
-};
 
-// Aplicăm același handler pentru ambele rute de test
-app.get('/css/:files', handler);
-app.get('/js/:files', handler);
+    if (missingFiles.length > 0) {
+      return res.status(404).send(`Missing JS files: ${missingFiles.join(', ')}`);
+    }
+
+    res.setHeader('Content-Type', 'application/javascript');
+    res.setHeader('Cache-Control', 'public, max-age=86400');
+    res.send(output.trim());
+  } catch (err) {
+    res.status(500).send(`JS Server Error: ${err.message}`);
+  }
+});
 
 module.exports = app;
