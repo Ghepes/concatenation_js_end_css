@@ -2,11 +2,17 @@
 Concatenation with js end css file deliver with Node server
 
 
-### Start info install:
+### Instal NPM Package:
+````
+npm i concatenation_js_end_css
+````
+Official NPM Package at [https://www.npmjs.com/package/concatenation_js_end_css](https://www.npmjs.com/package/concatenation_js_end_css)
+
+### Start with manuel install:
 ````
 npm init -y
 ````
-### Install Package:
+### Install manuel:
 ````
 npm install express
 npm install --save-dev nodemon
