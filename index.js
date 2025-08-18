@@ -1,40 +1,3 @@
-# concatenation_js_end_css
-Concatenation with js end css file deliver with Node server
-
-
-### Start info install:
-````
-npm init -y
-````
-### Install Package:
-````
-npm install express
-npm install --save-dev nodemon
-
-````
-### Test dev mode:
-````
-npm run dev
-````
-### Start the production:
-````
-npm start
-````
-
-### You want to add error handling middleware to your Express app! Consider adding compression middleware for the JS files:
-````
-npm install compression
-````
-### For production to package.json, you might want to add:
-````
-json
-"engines": {
-  "node": ">=18.0.0"
-}
-````
-
-### Add index.js with:
-````
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -90,15 +53,3 @@ app.use((req, res) => {
 app.listen(3000, () => {
   console.log('Server running at http://localhost:3000');
 });
-
-````
-
-### Add public folder to add js end css file to generate url CANCATENATION
-
-├── public/                <-- This is where you put all your JS end css files.
-│   ├── one.js
-│   ├── two.js
-│   ├── three.js
-│   ├── x.css
-│   ├── y.css
-│   ├── z.css
