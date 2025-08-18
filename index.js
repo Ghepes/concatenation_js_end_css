@@ -51,5 +51,6 @@ app.use((req, res) => {
 });
 
 
-// Instead of listen, export handler vercel
-module.exports = app;
+app.listen(3000, () => {
+  console.log('Server running at http://localhost:3000');
+});
