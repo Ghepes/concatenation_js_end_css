@@ -4,10 +4,15 @@ const path = require('path');
 const crypto = require('crypto');
 const app = express();
 
-app.get('/*', (req, res) => {
+// Aici este modificarea: am înlocuit app.get() cu app.use()
+app.use('/', (req, res) => {
+  // Verificăm dacă cererea este pentru un fișier .js
+  if (!req.path.includes('.js')) {
+    return res.status(404).send('Not a JS file request.');
+  }
+
   try {
     const requestedPath = decodeURIComponent(req.path);
-    // Log pentru a vedea ce request primim
     console.log(`Request received for path: ${requestedPath}`);
 
     const files = requestedPath.substring(1).split('+')
@@ -26,7 +31,6 @@ app.get('/*', (req, res) => {
       const projectRoot = process.cwd();
       const filePath = path.join(projectRoot, 'public', file);
 
-      // Log esențial pentru a vedea calea exactă
       console.log(`Attempting to read file from: ${filePath}`);
 
       if (fs.existsSync(filePath)) {
@@ -48,7 +52,6 @@ app.get('/*', (req, res) => {
     res.setHeader('Cache-Control', 'public, max-age=86400');
     res.send(output);
   } catch (err) {
-    // Log pentru orice altă eroare neașteptată
     console.error('CRITICAL ERROR:', err);
     res.status(500).send(`Server Error: ${err.message}`);
   }
