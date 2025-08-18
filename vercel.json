@@ -2,7 +2,7 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/(.*\\+.*\\.js)",
+      "source": "/:path((?!api/).*\\.js.*)",
       "destination": "/api/index"
     }
   ]
