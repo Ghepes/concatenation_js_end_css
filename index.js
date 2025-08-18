@@ -7,13 +7,15 @@ const app = express();
 app.use(express.static(path.join(__dirname, "..", "public")));
 
 // Combina JS
-app.get(/^\/([a-zA-Z0-9_-]+\.js\+)+[a-zA-Z0-9_-]+\.js$/, (req, res) => {
-  const requestedPath = decodeURIComponent(req.path);
+app.get(/^\/.+\.js( ?\+? ?.+\.js)*$/, (req, res) => {
+  // reconstruiește cu split pe [+ sau spațiu]
+  const requestedPath = decodeURIComponent(req.url.split("?")[0]);
 
   const files = requestedPath
-    .split("+")
-    .map(f => f.replace(/^\//, ""))
+    .replace(/^\//, "")
+    .split(/[\+\s]+/) // aici acceptă și `+`, și spațiu
     .filter(f => f.endsWith(".js"));
+
 
   if (files.length === 0) {
     return res.status(400).send("No valid JS files requested");
