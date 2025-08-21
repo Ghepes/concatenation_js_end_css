@@ -10,9 +10,12 @@ app.use('/', (req, res) => {
     console.log(`Request received for path: ${requestedPath}`);
 
     // --- MODIFICARE CHEIE ---
-    // Extragem dinamic calea directorului si fisierele combinate din URL.
-    // Acest lucru functionează pentru orice nivel de subfoldere.
-    const urlDirectory = path.dirname(requestedPath); // Exemplu: /public/chunk-batch
+    // Definim rădăcina de unde sunt servite fișierele statice.
+    const projectRoot = process.cwd();
+    const publicRoot = path.join(projectRoot, 'public');
+
+    // Extragem dinamic calea directorului și fișierele combinate din URL.
+    const urlDirectory = path.dirname(requestedPath); // Exemplu: / sau /chunk-batch
     const combinedFiles = path.basename(requestedPath); // Exemplu: file1.js+file2.js
 
     console.log(`URL Directory resolved to: ${urlDirectory}`);
@@ -31,6 +34,10 @@ app.use('/', (req, res) => {
       contentType = 'text/css';
       fileExtension = '.css';
     } else {
+      // Permitem și cereri pentru fișiere unice care nu conțin '+'
+      if (fs.existsSync(path.join(publicRoot, requestedPath))) {
+         return res.sendFile(path.join(publicRoot, requestedPath));
+      }
       return res.status(404).send('Not a valid JS or CSS file request.');
     }
 
@@ -42,22 +49,21 @@ app.use('/', (req, res) => {
 
     let output = '';
     const missingFiles = [];
-    const projectRoot = process.cwd();
 
     for (const file of files) {
-      // Construim calea completă pe disc, folosind directorul extras din URL.
-      const filePath = path.join(projectRoot, urlDirectory, file);
+      // Construim calea completă pe disc, pornind de la 'publicRoot'.
+      const filePath = path.join(publicRoot, urlDirectory, file);
 
       console.log(`Attempting to read file from: ${filePath}`);
 
       if (fs.existsSync(filePath)) {
         console.log(`SUCCESS: Found file ${file}`);
         
-        // Generăm un hash bazat pe calea relativă a fisierului pentru a asigura unicitatea
-        const relativeFilePath = path.join(urlDirectory, file).substring(1); // ex: public/chunk-batch/file1.js
+        // Generăm un hash bazat pe calea relativă a fișierului pentru a asigura unicitatea
+        const relativeFilePath = path.join(urlDirectory, file).substring(1); // ex: chunk-batch/file1.js
         const fileHash = crypto.createHash('md5').update(relativeFilePath).digest('hex').substring(0, 16);
 
-        // Construim separatorul corect în functie de tipul fisierului
+        // Construim separatorul corect în funcție de tipul fișierului
         if (fileExtension === '.js') {
           output += `;// __FILE_CONTENT_FOR__:${fileHash}${fileExtension}\n`;
         } else if (fileExtension === '.css') {
