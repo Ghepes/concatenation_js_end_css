@@ -4,28 +4,34 @@ const path = require('path');
 const crypto = require('crypto');
 const app = express();
 
-// Define the directories where files will be searched for, in order of priority.
-const SEARCH_DIRECTORIES = ['public', 'chunk-batch'];
-
 app.use('/', (req, res) => {
   try {
     const requestedPath = decodeURIComponent(req.path);
     console.log(`Request received for path: ${requestedPath}`);
 
+    // --- MODIFICARE CHEIE ---
+    // Extragem dinamic calea directorului si fisierele combinate din URL.
+    // Acest lucru functionează pentru orice nivel de subfoldere.
+    const urlDirectory = path.dirname(requestedPath); // Exemplu: /public/chunk-batch
+    const combinedFiles = path.basename(requestedPath); // Exemplu: file1.js+file2.js
+
+    console.log(`URL Directory resolved to: ${urlDirectory}`);
+    console.log(`Combined files string: ${combinedFiles}`);
+
     let files = [];
     let contentType = '';
     let fileExtension = '';
 
-    if (requestedPath.includes('.js')) {
-      files = requestedPath.substring(1).split('+').filter(f => f.endsWith('.js'));
+    if (combinedFiles.includes('.js')) {
+      files = combinedFiles.split('+').filter(f => f.endsWith('.js'));
       contentType = 'application/javascript';
       fileExtension = '.js';
-    } else if (requestedPath.includes('.css')) {
-      files = requestedPath.substring(1).split('+').filter(f => f.endsWith('.css'));
+    } else if (combinedFiles.includes('.css')) {
+      files = combinedFiles.split('+').filter(f => f.endsWith('.css'));
       contentType = 'text/css';
       fileExtension = '.css';
     } else {
-      return res.status(404).send('Not a JS or CSS file request.');
+      return res.status(404).send('Not a valid JS or CSS file request.');
     }
 
     console.log('Files to process:', files);
@@ -39,25 +45,19 @@ app.use('/', (req, res) => {
     const projectRoot = process.cwd();
 
     for (const file of files) {
-      let filePath = null;
-      let fileFound = false;
+      // Construim calea completă pe disc, folosind directorul extras din URL.
+      const filePath = path.join(projectRoot, urlDirectory, file);
 
-      // Loop through the defined search directories to find the file
-      for (const dir of SEARCH_DIRECTORIES) {
-        const currentPath = path.join(projectRoot, dir, file);
-        console.log(`Attempting to read file from: ${currentPath}`);
-        if (fs.existsSync(currentPath)) {
-          filePath = currentPath;
-          fileFound = true;
-          break; // Exit the loop once the file is found
-        }
-      }
+      console.log(`Attempting to read file from: ${filePath}`);
 
-      if (fileFound) {
-        console.log(`SUCCESS: Found file at ${filePath}`);
-        const fileHash = crypto.createHash('md5').update(file).digest('hex').substring(0, 16);
+      if (fs.existsSync(filePath)) {
+        console.log(`SUCCESS: Found file ${file}`);
+        
+        // Generăm un hash bazat pe calea relativă a fisierului pentru a asigura unicitatea
+        const relativeFilePath = path.join(urlDirectory, file).substring(1); // ex: public/chunk-batch/file1.js
+        const fileHash = crypto.createHash('md5').update(relativeFilePath).digest('hex').substring(0, 16);
 
-        // Construct the correct separator based on the file type
+        // Construim separatorul corect în functie de tipul fisierului
         if (fileExtension === '.js') {
           output += `;// __FILE_CONTENT_FOR__:${fileHash}${fileExtension}\n`;
         } else if (fileExtension === '.css') {
@@ -66,8 +66,8 @@ app.use('/', (req, res) => {
         
         output += fs.readFileSync(filePath, 'utf8').trim() + '\n\n';
       } else {
-        console.error(`ERROR: File not found in any search directory: ${file}`);
-        missingFiles.push(file);
+        console.error(`ERROR: File not found at ${filePath}`);
+        missingFiles.push(path.join(urlDirectory, file));
       }
     }
 
@@ -85,3 +85,4 @@ app.use('/', (req, res) => {
 });
 
 module.exports = app;
+
