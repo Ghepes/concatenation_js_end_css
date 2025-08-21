@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[134841],{
+
+/***/ 455766:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var M=__c.M;var z=__c.z;var L=__c.L;var H=__c.H;var Mte=__c.K(()=>[1,2,3]);var Nte=H(()=>({Pa:L(4),Glr:L(5)}));var Ote=H(()=>({type:z("A?",1,"REMIX_LINK"),ODr:__c.E(1,Nte),designTitle:L(2),link:L(9),v4c:M(10)}));var Pte=H(()=>({type:z("A?",2,"NAVIGATE_TO_TEMPLATES"),query:M(1),category:M(2),doctype:M(3),group:M(4)}));var Qte=H(()=>({type:z("A?",3,"ICON_SEARCH"),query:L(1)}));var Rte=H(()=>({type:z("A?",4,"NAVIGATE_TO_EDITORIAL_PAGE"),aFa:L(1)}));var Ste=H(()=>({type:z("A?",5,"EXTERNAL_LINK"),link:L(1)}));var Tte=H(()=>({type:z("A?",6,"NAVIGATE_TO_BRAND_PORTFOLIO"),Fe:L(1)}));var Ute=H(()=>({type:z("A?",7,"NAVIGATE_TO_TEMPLATE_ITEM"),Qb:L(1)}));var Vte=H(()=>({type:z("A?",8,"OPEN_ASSISTANT")}));var Wte=__c.K(()=>[1,2,3]);var Xte=H(()=>({type:z("A?",11,"FEATURE_ACTION"),Db:__c.Ma(1,Wte)}));var Yte=__c.Ta(()=>({type:[1,Ote,2,Pte,3,Qte,4,Rte,5,Ste,6,Tte,7,Ute,8,Vte,11,Xte]}),()=>({}));var Zte=__c.K(()=>[1,2]);var $te=H(()=>({qno:__c.N(1),text:M(2)}));var aue=H(()=>({fnr:L(1),X5r:__c.ic(2)}));__c.bue=H(()=>({id:L(1),title:L(2),t$n:L(3),u$n:L(4),r$n:L(5),s$n:L(6),backgroundColor:L(7),platform:__c.Ma(8,Mte),action:__c.C(9,Yte),theme:__c.Oa(10,Zte),L1k:__c.E(11,$te),enr:__c.E(12,aue)}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/043971a0991aa64e.js.map

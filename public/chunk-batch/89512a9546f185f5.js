@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[136446],{
+
+/***/ 455947:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(518778);__web_req__(559565);__web_req__(728687);__web_req__(638993);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var vEx=__webpack_require__(400770).computed;__c.$ta={pxh:function({V:a,ka:b,yx:c,AWp:d,I:{mode:e,N:f,errorService:g,dc:h,Nc:k,Gh:l,zp:n,Bi:p,$0:q,Ba:r,z1c:u,LMb:v},Gm:w,ja:x,za:y}){const A=a.Oa.brand.id,B=a.user.id,D=w.NP,F=w.SRa,G=w.Nle,I=w.AKn,J=w.r$,O=w.swc;f=new __c.Oil(f,g,{source:"home"});const P=__c.Ha(async()=>{const [{Erj:aa},{Drj:fa},{pvj:da},ia]=await Promise.all([__webpack_require__.me(398092).then(()=>__c.LTk),__webpack_require__.me(514033).then(()=>__c.Vzm),__webpack_require__.me(907233).then(()=>__c.RZc),n()]),X=new fa(k,ia,
+h,void 0,void 0,!0),ba=new da(2);return new aa(vEx(()=>X),ba,c,D,F,G)}),R=w.g3.length>0?()=>Promise.all([__webpack_require__.me(601535).then(()=>__c.wEx),n()]).then(([{O7h:aa},fa])=>{({PWd:aa}=aa({V:a,Bi:p,dc:h,yx:c,Gm:w,JF:fa,Gh:l,T3a:!0}));return aa}):void 0,T=w.lJa.length>0?()=>Promise.all([__webpack_require__.me(171630).then(()=>__c.xEx),I?n():void 0]).then(([{Edo:aa},fa])=>{({zPm:aa}=aa({V:a,$0:q,yx:c,Gm:w,JF:fa,Gh:l}));return aa}):void 0,U=J.length>0?()=>Promise.all([v(),n(),__webpack_require__.me(642048).then(()=>
+__c.yEx)]).then(([aa,fa,{teo:da}])=>da({vbb:aa,JF:fa,r$:J,swc:O,za:y})):void 0,Y=w.i0e?()=>Promise.all([n(),u(),__webpack_require__.me(333228).then(()=>__c.zEx)]).then(([aa,fa,{Keo:da}])=>da({V:a,JF:aa,errorService:g,dc:h,xfc:fa,yx:c,DQn:w.WPh?w.WPh:F})):void 0;b=__c.Ubl({V:a,ka:b,ja:x,Ba:r,owb:w.owb});return new __c.K9i({ODe:[async()=>{const aa=[R?R():Promise.resolve(void 0),P()],[fa,da]=await Promise.all(aa);return new __c.Pil(da,fa)},R?R:void 0,U?U:void 0,T?T:void 0,P,Y?Y:void 0].filter(__c.Ua),
+fa:f,errorService:g,L1:d,window:e==="REAL"?window:void 0,za:y,userId:B,X:A,J_f:b})}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/89512a9546f185f5.js.map

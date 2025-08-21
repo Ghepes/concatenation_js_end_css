@@ -1,0 +1,10 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[950710],{
+
+/***/ 723272:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var P0d;__c.du=function(a,b){return c=>{class d extends O0d{render(){const e=this.props;return P0d(__c.Q0d,{...b,children:f=>P0d(c,{...e,...a(f)})})}}d.displayName=`${__c.du.name}(${c.displayName||c.name||"UnnamedComponent"})`;return d}};__c.R0d=function(a){const {transform:b,Component:c,...d}=a;return __c.du(b,d)(c)};P0d=__webpack_require__(613444).jsx;var S0d=__webpack_require__(366533),T0d=S0d.Component,O0d=S0d.PureComponent;var U0d=__webpack_require__(316620).A;var V0d=__webpack_require__(277049)._;var W0d=__webpack_require__(400770),X0d=W0d.action,Y0d=W0d.computed,Z0d=W0d.observable;var $0d=__webpack_require__(269018)._;var a1d,b1d,c1d;
+new (a1d=class extends V0d{constructor(){super(__c.Q0d);b1d()}},(()=>{class a extends(c1d=T0d){static G(b){__c.Q(b,{width:Z0d.ref,height:Z0d.ref,onResize:X0d.bound,VRk:X0d.bound,Eyk:Y0d.struct,style:Y0d.struct})}onResize({offset:b}){const c=b.width;b=b.height;c!=null&&b!=null&&(this.width=c,this.height=b)}VRk(b){b&&(this.width=b.offsetWidth,this.height=b.offsetHeight,this.forceUpdate())}get Eyk(){if(this.width!=null&&this.height!=null)return{width:this.width,height:this.height}}get style(){return{display:this.props.BZb==="height"?
+"inline-block":void 0,height:this.props.BZb==="width"?void 0:"100%",width:this.props.BZb==="height"?void 0:"100%"}}render(){const b=this.Eyk,c=this.style;return P0d(U0d,{offset:!0,onResize:this.onResize,innerRef:this.VRk,children:({measureRef:d})=>P0d("div",{ref:d,style:c,children:b&&this.props.children(b)})})}constructor(...b){super(...b);this.width=(__c.Q0d.G(this),void 0)}}({c:[__c.Q0d,b1d]}=$0d(a,[],[__c.Mf],c1d));a.xbr={width:void 0,height:void 0}})(),a1d);
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/6ae426ccf0667e38.js.map

@@ -1,0 +1,10 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[62536],{
+
+/***/ 791079:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(716392);__web_req__(960817);self._456c437108d2d2713799e19380be528d = self._456c437108d2d2713799e19380be528d || {};(function(__c) {var ghk,hhk;ghk=async function(a,b){let c;switch(b.XTc){case 1:c="cache";break;case 2:c="idb";break;default:throw new __c.v(b.XTc);}await a.eW.put(`${c}:${b.name}`,b)};hhk=async function(a,{key:b,yl:c,UJs:d}){if(d(c)){switch(c.XTc){case 1:await self.caches.delete(c.name);break;case 2:await __c.Igk(c.name);break;default:throw new __c.v(c.XTc);}await a.eW.delete(b)}};
+__c.khk=function({ea:{P:a}}){return new ihk(__c.chk({eaa:"persisted_data_registry",serializer:{serialize:jhk.serialize,deserialize:jhk.deserialize},P:a}))};var ihk=class{async VYe({name:a,scope:b}){this.$1j&&await ghk(this,{name:a,XTc:2,pO:b!=null?[{key:1,value:b.userId},{key:2,value:b.ma}]:[]})}async xKi(a){this.$1j&&await ghk(this,{name:a,XTc:1,pO:[]})}async deleteData({uzg:a}){if(this.$1j){var b=a.Bx.size===0,c=[],{items:d}=await this.eW.getAll();for(const {key:e,yl:f}of d)try{await hhk(this,{key:e,yl:f,UJs:g=>{if(b)return!0;g=g.pO.filter(h=>h.key===1);return g.length===0?!1:!g.some(h=>a.Bx.has(h.value))}})}catch(g){c.push(g)}if(c.length>0)throw new lhk(c);
+}}constructor(a){this.$1j=__c.Qb("2446dd3c",!0);this.eW=a}},lhk=class extends Error{constructor(a){super("Unable to delete PersistedDataRegistry data");this.errors=a}};var mhk=__c.ab(()=>[1,2]);var nhk=__c.ab(()=>[1,2]);var ohk=__c.H(()=>({key:__c.Ua(1,nhk),value:__c.T(2)}));var jhk=__c.H(()=>({name:__c.T(1),XTc:__c.Ua(2,mhk),pO:__c.Qa(3,ohk)}));
+}).call(self, self._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/ea0e4ae7ca34ff15.js.map

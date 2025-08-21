@@ -1,0 +1,10 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[356069],{
+
+/***/ 416045:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(251201);__web_req__(133421);__web_req__(157643);__web_req__(487513);__web_req__(39795);__web_req__(278456);__web_req__(268710);__web_req__(744687);__web_req__(914642);__web_req__(928311);__web_req__(161783);__web_req__(452715);__web_req__(50135);__web_req__(332937);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var ec=__c.ec;var E=__c.E;var vUc=__c.K(()=>[1,"UNDER_REVIEW",2,"APPROVED",3,"REJECTED"],0,{yh:1});var wUc=__c.H(()=>({hXr:__c.ic("publik",1),PVq:__c.ic("brandPublik",2),aKr:__c.Oa("myRole",3,__c.ei),$f:E("owner",9,__c.Bo)}),{yh:1});__c.Fo=__c.H(()=>({type:__c.Ma("type",1,__c.BNc),id:__c.L("id",2),name:__c.M("name",3),version:__c.dc("version",4),created:ec("created",26),kF:ec("modified",27),added:ec("added",28),timestamp:ec("timestamp",5),Cds:ec("trashedTimestamp",6),thumbnail:E("thumbnail",7,__c.lUc),hNp:E("thumbnail2",34,__c.sUc),lg:__c.dc("pageCount",8),tags:__c.gc("tags",9),Uc:__c.gc("folders",10),tth:__c.La("containingFolderKeys",36,__c.zb),media:E("media",11,__c.yo),document:E("document",12,__c.Xj),eq:__c.Oa("documentAccess",
+21,__c.ei),category:E("category",32,__c.Nn),template:E("template",19,__c.kUc),SGr:__c.Oa("marketplaceStatus",14,vUc),$f:E("owner",15,__c.Pi),file:E("file",35,__c.hNc),na:E("folder",18,__c.Ao),w7r:E("socialMetadata",16,wUc),fOd:E("scheduleSummary",22,__c.$Qc),kn:__c.M("doctypeTitle",25),XWc:E("documentAssociatedTemplate",33,__c.RFc),yL:E("license",17,__c.YQc),oda:E("shapeOverride",20,__c.qo),video:E("video",23,__c.vo),audio:E("audio",24,__c.dsc),mrf:__c.M("pinnedByUserId",30),ZCg:ec("pinnedTimestamp",
+31)}),{yh:1});
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/44e0c172d4a4afc2.js.map

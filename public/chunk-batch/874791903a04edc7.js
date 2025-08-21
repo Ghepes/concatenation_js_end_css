@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[878632],{
+
+/***/ 787894:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(689656);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var z=__c.z;var H=__c.H;var GNc=()=>({brand:__c.M("brand",1),Nua:__c.M("brand2",21)});__c.HNc=H(()=>({...GNc(),type:z("type","BRAND_PRINCIPAL",2,"BRAND_PRINCIPAL")}));__c.INc=H(()=>({...GNc(),type:z("type","GROUP_PRINCIPAL",3,"GROUP_PRINCIPAL"),group:__c.L("group",1)}));__c.JNc=H(()=>({...GNc(),type:z("type","USER_PRINCIPAL",4,"USER_PRINCIPAL"),user:__c.L("user",1)}));__c.KNc=H(()=>({...GNc(),type:z("type","ROLE_PRINCIPAL",5,"ROLE_PRINCIPAL"),role:__c.Ma("role",1,__c.Cc)}));__c.LNc=H(()=>({...GNc(),type:z("type","ORG_PRINCIPAL",6,"ORG_PRINCIPAL"),pp:__c.L("orgId",1)}));var MNc=__c.Ta(()=>({type:[2,__c.HNc,3,__c.INc,4,__c.JNc,5,__c.KNc,6,__c.LNc]}),GNc);__c.NNc=H(()=>({type:z("type","USER",1,"USER")}),{yh:1});__c.ONc=H(()=>({type:z("type","FOLDER",2,"FOLDER"),mb:__c.L("folderId",1)}),{yh:1});var PNc=__c.Ta(()=>({type:[1,__c.NNc,2,__c.ONc]}),()=>({}),{yh:1});__c.ko=H(()=>({kb:__c.C("principal",1,MNc),access:__c.Ma("access",2,__c.xNc),origin:__c.C("origin",3,PNc),Caa:__c.ic("requireExtension",4)}),{yh:1});__c.lo=H(()=>({rules:__c.La("rules",1,__c.ko)}),{yh:1});
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/874791903a04edc7.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_canva_web=self.webpackChunk_canva_web||[]).push([[380423],{486195:(e,r,t)=>{t.d(r,{M:()=>a});var a=function(){function e(){return Error.call(this),this.message="Timeout has occurred",this.name="TimeoutError",this}return e.prototype=Object.create(Error.prototype),e}()}}]);
+//# sourceMappingURL=sourcemaps/f87e0878ea3fd167.vendor.js.map

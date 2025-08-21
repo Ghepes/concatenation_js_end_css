@@ -1,0 +1,9 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[356628],{
+
+/***/ 914830:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var AVk=__webpack_require__(400770),BVk=AVk.action,CVk=AVk.observable;var DVk=__webpack_require__(366533),EVk=DVk.Component,FVk=DVk.createRef;var GVk=__webpack_require__(269018)._;var HVk=class{static G(a){__c.Q(a,{visible:CVk.ref,Y5:CVk.ref})}constructor(a){this.visible=(HVk.G(this),!1);this.Y5=a}},IVk=class{static G(a){__c.Q(a,{setVisible:BVk})}setVisible(a,b){var c;a.visible!==b&&(a.visible=b,(c=this.onChange)===null||c===void 0||c.call(this,b))}observe(a,b){b=__c.m(b,"Incorrect usage of VisibilityHandler: the ref must be attached to a child component");this.lK=this.observer.observe(b,c=>{a.Y5&&a.visible||(this.setVisible(a,c),a.Y5&&a.visible&&this.dispose())})}dispose(){var a;
+(a=this.lK)===null||a===void 0||a.call(this);this.lK=void 0}constructor(a,b){this.observer=a;this.onChange=b;this.lK=(IVk.G(this),void 0)}};var JVk,KVk;KVk=class extends EVk{componentDidMount(){this.ga.observe(this.store,this.ref.current)}componentWillUnmount(){this.ga.dispose()}render(){return this.props.children({ref:this.ref,visible:this.store.visible})}constructor(a){super(a);this.ref=FVk();this.store=new HVk(a.Y5||!1);this.ga=new IVk(a.ie,a.Bt)}};({c:[__c.tH,JVk]}=GVk(KVk,[],[__c.Mf],EVk));JVk();
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/6fa3e76673d7f8c3.js.map

@@ -1,0 +1,9 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[342782],{
+
+/***/ 433299:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(343709);__web_req__(574927);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var H=__c.H;var jxj,mxj,gxj;__c.fxj=function(a,b){return __c.Ha(async()=>{const c=await a();return b(c)},{CM:!0})};jxj=function(a,b,c){__c.qa(a.ld.requestChannel!=null);const d=__c.m(a.Ha.khj);return a.ld.requestChannel(a.Ha.wb,d,gxj.serialize(b),__c.Nd(c,hxj.serialize)).pipe(e=>__c.Nd(e,ixj.deserialize))};mxj=function(a,b,c){__c.qa(a.ld.requestChannel!=null);const d=__c.m(a.Ha.HLf);return a.ld.requestChannel(a.Ha.wb,d,__c.exj.serialize(b),__c.Nd(c,kxj.serialize)).pipe(e=>__c.Nd(e,lxj.deserialize))};
+gxj=H(()=>({}));var hxj=H(()=>({}));var ixj=H(()=>({enabled:__c.N(1)}));var kxj=H(()=>({}));var nxj=__c.K(()=>[0,1,2]);var lxj=H(()=>({networkType:__c.Ma(1,nxj)}));var oxj=H(()=>({rtt:__c.bc(1),downlink:__c.bc(2)}));var pxj=H(()=>({metrics:__c.C(1,oxj)}));__c.qxj=class{constructor(a,b){this.ld=a;this.Ha=b;this.getMetrics=__c.Pd({Te:this.ld,wb:this.Ha.wb,methodName:this.Ha.getMetrics,mk:__c.dxj.serialize,kk:pxj.deserialize});this.khj=this.Ha.khj!=null&&this.ld.requestChannel!=null?(c,d)=>jxj(this,c,d):void 0;this.HLf=this.Ha.HLf!=null&&this.ld.requestChannel!=null?(c,d)=>mxj(this,c,d):void 0}};__c.bea={};__c.bea.Eem=__c.qxj;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/85337792001c96c3.js.map

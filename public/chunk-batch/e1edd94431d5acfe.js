@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[42829],{
+
+/***/ 458762:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(901199);__web_req__(825159);__web_req__(605909);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var C=__c.C;var ec=__c.ec;var H=__c.H;var FOd,GOd,NOd;__c.EOd=function(a){a=a.rules.find(({type:b})=>b===8);return!!a&&a.role!==1};FOd=function(a){return a.rules.some(b=>b.role!==6&&b.role!==1)};GOd=function(a){return a.Moa.some(b=>b.role!==1&&b.status!==3)};__c.HOd=function(a){return a.Soa?!1:!(FOd(a.fc)||GOd(a.fc))};__c.IOd=__c.K(()=>[1,"SET",2,"DOWNGRADE",3,"UPGRADE"]);__c.JOd=H(()=>({op:__c.Ma("op",1,__c.IOd),role:__c.Ma("role",2,__c.ei)}));
+__c.KOd=H(()=>({expiry:ec("expiry",6),op:__c.Ma("op",1,__c.IOd),role:__c.Ma("role",2,__c.ei),HS:__c.ic("owningBrandOnly",3),nac:__c.N("allowAnonymousEditAccess",4)}));__c.LOd=H(()=>({expiry:ec("expiry",6),kb:C("principal",1,__c.Pi),origin:C("origin",2,__c.Qi),wHa:C("roleChange",3,__c.JOd),Caa:__c.ic("requireExtension",5),timestamp:ec("timestamp",4)}));
+__c.MOd=H(()=>({expiry:ec("expiry",5),kb:C("principal",1,__c.Ufb),origin:C("origin",2,__c.Qi),wHa:C("roleChange",3,__c.JOd),timestamp:ec("timestamp",4)}));__c.mgb.prototype.GAc=__c.ja(30,async function(a){__c.pa(a.id!=null&&/^D[a-zA-Z0-9_-]{10}$/.test(a.id));const b=__c.Ib([__c.Qd,a.id,"acl"]);__c.Gb(b,{extension:a.extension});a=__c.Kb(b);const [c,{qam:d}]=await Promise.all([this.ra.get(a,{Fa:"getdocumentaclapi"}),__webpack_require__.me(904261).then(()=>({qam:__c.uKc}))]);return d.deserialize(c)});
+__c.ogb.prototype.GAc=__c.ja(29,function(a){return this.P2.GAc(a)});NOd=__webpack_require__(400770);__c.OOd=NOd.action;__c.POd=NOd.computed;__c.QOd=NOd.observable;__c.ROd=NOd.runInAction;__c.SOd=H(()=>({id:__c.L("id",1),extension:__c.M("extension",2)}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/e1edd94431d5acfe.js.map

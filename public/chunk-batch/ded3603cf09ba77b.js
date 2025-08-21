@@ -1,0 +1,12 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[900583],{
+
+/***/ 168962:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(255809);__web_req__(124981);__web_req__(261433);__web_req__(754394);__web_req__(434413);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Kb=__c.Kb;var Gb=__c.Gb;var Ib=__c.Ib;var Zuj;
+__c.fvj=class{async Bde(a){const b=Ib([Zuj,"enrolment"]);Gb(b,{featureGroup:__c.m(a.xM),principal:a.kb});a=Kb(b);const [c,{Ham:d}]=await Promise.all([this.ra.get(a,{Fa:"getenrolment"}),__webpack_require__.me(804023).then(()=>({Ham:__c.$uj}))]);return d.deserialize(c)}async xbg(a){const b=Ib([Zuj,"enrolments"]);Gb(b,{type:a.type,readConsistency:a.Cxa&&__c.Wuj.serialize(a.Cxa),continuation:a.continuation,limit:__c.m(a.limit)});switch(a.type){case "BY_FEATURE_GROUP":Gb(b,{featureGroup:__c.m(a.xM)});break;
+case "BY_PRINCIPALS":Gb(b,{principals:a.eHa});break;default:throw new __c.t(a);}a=Kb(b);const [c,{p6l:d}]=await Promise.all([this.ra.get(a,{Fa:"findenrolments"}),__webpack_require__.me(804023).then(()=>({p6l:__c.avj}))]);return d.deserialize(c)}async PWb(a){const b=Kb(Ib([Zuj,"enrolments"])),[c,{lVl:d}]=await Promise.all([this.ra.post(b,__c.Yuj.serialize(a.body),{Fa:"createenrolmentapi"}),__webpack_require__.me(804023).then(()=>({lVl:__c.bvj}))]);return d.deserialize(c)}async Vpd(a){const b=Ib([Zuj,
+"enrolments"]);Gb(b,{featureGroup:__c.m(a.xM),principal:a.kb});a=Kb(b);const [c,{xYl:d}]=await Promise.all([this.ra.delete(a,{Fa:"deleteenrolment"}),__webpack_require__.me(804023).then(()=>({xYl:__c.cvj}))]);return d.deserialize(c)}async ybg(a){const b=Ib([Zuj,"featurebundles"]);Gb(b,{brand:a.brand,user:a.user});a=Kb(b);const [c,{u6l:d}]=await Promise.all([this.ra.get(a,{Fa:"findfeaturebundlesapi"}),__webpack_require__.me(804023).then(()=>({u6l:__c.dvj}))]);return d.deserialize(c)}async S$j(a){const b=
+Kb(Ib([Zuj,"v2","featurebundles","find"])),[c,{v6l:d}]=await Promise.all([this.ra.post(b,__c.Xuj.serialize(a),{Fa:"findfeaturebundlesv2"}),__webpack_require__.me(804023).then(()=>({v6l:__c.evj}))]);return d.deserialize(c)}constructor(a){this.ra=a}};Zuj="features";__c.uia={};__c.uia.qpj=__c.fvj;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/ded3603cf09ba77b.js.map

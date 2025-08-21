@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[446124],{
+
+/***/ 350747:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(814059);__web_req__(306503);__web_req__(961853);__web_req__(65699);__web_req__(963890);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Fb=__c.Fb;var Ndi,Pdi;Ndi=function(a,b){a.N.Xm("collecting_crowns_interacted",__c.Db({page:b.page,source:b.source,action:b.action,total_collected_crowns:b.jyl}))};
+__c.DB=function(a){var b;const {V:c,kd:d,Jda:e,I:{errorService:f,Ba:g},ET:h,options:k={}}=a;if(d.status!==Fb.zs){var {HCh:l=!1}=k;if(!l&&!e.EYb)return{Component:__c.fdi(k.variant||"default",d.status===Fb.gi,e.V1j)};if(e.EYb){l=!!c&&__c.V1a(6,h,(b=c.jl)===null||b===void 0?void 0:b.J3a);var n=async()=>{c&&await (new __c.rOh(g,f,c.user.id,6)).lO([h,"all"])},{Tig:p=!0,i8d:q=!1}=k||{};b=a.I;var r=a.page,{Component:u,controller:v}=__c.pdi({$Aa:d.status===Fb.gi,ofa:l,E$d:e.V1j,GPo:()=>{Ndi(w,{action:"badge_clicked",
+page:r,source:h,jyl:0})},options:{e$d:!q&&e.e$d,Tig:p,s5f:e.hun,variant:k===null||k===void 0?void 0:k.variant,Eng:k===null||k===void 0?void 0:k.Eng}}),w=new Odi(b.N),x=async()=>{Ndi(w,{action:"pulsing_badge_interacted",page:r,source:h,jyl:0})};return{Component:u,controller:{AL:()=>{v===null||v===void 0||v.soe(x,n)},jWk:y=>{var A;v===null||v===void 0||(A=v.jWk)===null||A===void 0||A.call(v,y)},get ofa(){var y;return(y=v===null||v===void 0?void 0:v.ofa)!==null&&y!==void 0?y:!1}}}}}};
+__c.Qdi=function({kd:a,variant:b="default"}){if(a.status!==Fb.zs)return({children:c})=>Pdi(__c.Rci,{IT:a.status===Fb.xf,variant:b,children:c})};Pdi=__webpack_require__(613444).jsx;__webpack_require__(366533);var Odi=class{constructor(a){this.N=a}};__c.Rdi=(a,b={})=>{if(a.status!==Fb.zs){var {oJl:c=!1,APr:d}=b,e=a.status===Fb.xf?__c.Ss:__c.Rs;return()=>c?Pdi(__c.ddi,{className:d,children:Pdi(e,{})}):Pdi(e,{})}};__c.Sdi={xrr:__c.Rdi};__c.Sdi.uhk=__c.Qdi;__c.Sdi.AHr=__c.DB;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/abecce5f8a46451f.js.map

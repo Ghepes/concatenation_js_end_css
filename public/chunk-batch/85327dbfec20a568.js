@@ -1,0 +1,10 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[62536],{
+
+/***/ 791079:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(716392);__web_req__(960817);self._456c437108d2d2713799e19380be528d = self._456c437108d2d2713799e19380be528d || {};(function(__c) {var Kgk,Lgk;Kgk=async function(a,b){let c;switch(b.CTc){case 1:c="cache";break;case 2:c="idb";break;default:throw new __c.v(b.CTc);}await a.YV.put(`${c}:${b.name}`,b)};Lgk=async function(a,{key:b,xl:c,rHs:d}){if(d(c)){switch(c.CTc){case 1:await self.caches.delete(c.name);break;case 2:await __c.lgk(c.name);break;default:throw new __c.v(c.CTc);}await a.YV.delete(b)}};
+__c.Ogk=function({ea:{V:a}}){return new Mgk(__c.Ggk({baa:"persisted_data_registry",serializer:{serialize:Ngk.serialize,deserialize:Ngk.deserialize},V:a}))};var Mgk=class{async vYe({name:a,scope:b}){this.X0j&&await Kgk(this,{name:a,CTc:2,kO:b!=null?[{key:1,value:b.userId},{key:2,value:b.na}]:[]})}async EJi(a){this.X0j&&await Kgk(this,{name:a,CTc:1,kO:[]})}async deleteData({Jyg:a}){if(this.X0j){var b=a.Vx.size===0,c=[],{items:d}=await this.YV.getAll();for(const {key:e,xl:f}of d)try{await Lgk(this,{key:e,xl:f,rHs:g=>{if(b)return!0;g=g.kO.filter(h=>h.key===1);return g.length===0?!1:!g.some(h=>a.Vx.has(h.value))}})}catch(g){c.push(g)}if(c.length>0)throw new Pgk(c);
+}}constructor(a){this.X0j=__c.Qb("2446dd3c",!0);this.YV=a}},Pgk=class extends Error{constructor(a){super("Unable to delete PersistedDataRegistry data");this.errors=a}};var Qgk=__c.ab(()=>[1,2]);var Rgk=__c.ab(()=>[1,2]);var Sgk=__c.H(()=>({key:__c.Ta(1,Rgk),value:__c.T(2)}));var Ngk=__c.H(()=>({name:__c.T(1),CTc:__c.Ta(2,Qgk),kO:__c.Qa(3,Sgk)}));
+}).call(self, self._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/85327dbfec20a568.js.map

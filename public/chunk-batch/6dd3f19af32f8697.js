@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[940220],{
+
+/***/ 269753:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var V_x=__webpack_require__(400770),W_x=V_x.action,X_x=V_x.computed,Y_x=V_x.observable;__c.Yna=class{static G(a){__c.Q(a,{n4a:Y_x.shallow,Uc:X_x,u3k:X_x,kMd:X_x,HPp:X_x,scg:X_x,UMe:W_x,v_a:W_x,Iup:W_x,y1i:X_x})}get Uc(){return Array.from(this.n4a.values())}get u3k(){return this.Uc.filter(a=>!a.Vk)}get kMd(){return this.u3k.slice().sort(__c.$Va)}get HPp(){return this.kMd.filter(a=>!a.LDc)}get scg(){return this.Uc.slice().sort(__c.$Va)}Boa(a){return this.n4a.has(__c.ZVa(a))}YH(a){a=__c.ZVa(a);__c.pa(this.n4a.has(a),"Attempting to retrieve non-existent folder from folders store: {}",a);
+return this.n4a.get(a)}$xb(a,b){return this.Uc.filter(c=>{const d=c.type;switch(d){case 3:switch(b){case "photos":return c.getItem(a,"photos");case "designs":return c.getItem(a,"designs");case "folders":return c.getItem(a,"folders");case "templates":return c.getItem(a,"templates");case "videos":return c.getItem(a,"videos");default:throw new __c.t(b);}case 1:switch(b){case "photos":return c.getItem(a,"photos");case "designs":case "videos":case "folders":case "templates":return;default:throw new __c.t(b);
+}case 2:switch(b){case "designs":return c.getItem(a,"designs");case "photos":case "videos":case "folders":case "templates":return;default:throw new __c.t(b);}default:throw new __c.t(d);}})}UMe(a){a.forEach(b=>{const c=__c.ZVa(b.key);__c.pa(!this.n4a.has(c),"Adding folder failed, already exists in the folders store: {}",c);this.n4a.set(c,b)})}v_a(a){a=__c.ZVa(a);__c.pa(this.n4a.has(a),"Attempting to delete non-existent folder from folders store: {}",a);this.n4a.delete(a)}Iup(a,b){this.YH(a).N6f=b}get y1i(){return this.kMd.filter(a=>
+a.LDc)}constructor(){this.n4a=(__c.Yna.G(this),new Map)}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/6dd3f19af32f8697.js.map

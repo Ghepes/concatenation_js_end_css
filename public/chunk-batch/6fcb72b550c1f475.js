@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[817695],{
+
+/***/ 712298:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(377700);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Xa=__c.Xa;
+var PUu=function(a,b){function c(){f!=null&&clearTimeout(f);f=setTimeout(d,a)}async function d(){if(await b()&&!g){f!=null&&(clearTimeout(f),f=void 0);for(const h of e)document.removeEventListener(h,c);g=!0}}const e=["mousedown","keydown","touchstart"];let f,g=!1;for(const h of e)document.addEventListener(h,c,{passive:!0});c()},QUu=async function({V:a,p0:b}){var c;const d=Xa("aabc9b30",!1),e=Xa("7926696a",18E4),f=Xa("303b5f2b",6E4),g=Xa("71e7cf35",72E5),h=Xa("64376fcd",1),k=Xa("51723003",!1);d&&(a=
+(c=a.jl)===null||c===void 0?void 0:c.Cq,c=__c.Mh(720,a),c!==null&&c!==void 0&&c.Dd&&__c.cb.now()-c.Dd<g&&(await __c.eb(e),PUu(f,async()=>{if(!await b.J3d())return!1;b.aOb("pfp-help-csat",{kaf:k,v5e:k?void 0:10,qVn:h,Tja:{JC:"inactivity"}});return!0})))};var RUu=class{async Wxb(){if(!this.controller)try{this.controller=await this.aeo()}catch(a){throw this.errorService.ia(a),a;}return this.controller}async aOb(a,b){(await this.Wxb()).aOb(a,b)}async open(a,b){(await this.Wxb()).open(a,b)}async close(a){(await this.Wxb()).close(a)}async J3d(){return(await this.Wxb()).J3d()}isOpen(){var a,b;return(b=(a=this.controller)===null||a===void 0?void 0:a.isOpen())!==null&&b!==void 0?b:!1}constructor(a,b){this.aeo=a;this.errorService=b}};__c.Ypa={r$o:function({hi:a,V:b,ccb:c,va:d,gd:e,I:{N:f,ij:g,Ea:h,errorService:k,Ca:l,Ka:n,Ga:p,$kg:q,tla:r,C1c:u,uy:v,hm:w,Sc:x,tia:y,Hb:A},skeleton:B}){const D=new RUu(()=>Promise.all([q(),u(),v(),w(),y(),__webpack_require__.me(878236).then(()=>__c.SUu),__webpack_require__.me(540444).then(()=>__c.cCi)]).then(([F,G,I,J,O,{Mfo:P},{bvh:R}])=>{({Ja:R}=R({gd:e,locale:b.user.locale,B0c:!0}));return P({hi:a,V:b,Ja:R,ccb:c,va:d,I:{N:f,Jb:F,ij:g,Ea:h,errorService:k,Ca:l,Ka:n,lia:G,Ga:p,tla:r,Ba:I,Sc:x,nq:O,
+Hb:A,xg:J},skeleton:B})}),k);QUu({V:b,p0:D});return{p0:D}}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/6fcb72b550c1f475.js.map

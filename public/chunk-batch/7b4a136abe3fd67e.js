@@ -1,0 +1,12 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[14812],{
+
+/***/ 95773:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var $vi,cwi,ewi,hwi,Zvi,Xvi;$vi=function({children:a,ariaCurrent:b,PTp:c,aZi:d}){return Xvi("li",{className:Yvi("jHkHDA",{TOgozw:c}),"aria-current":b,children:[a,d&&Zvi(__c.bk,{className:"oedTWQ",size:"medium"})]})};
+__c.awi=function({breadcrumbs:a,lw:b=!1}){return Zvi("nav",{"aria-label":__c.V("1n1qWA"),className:b?"td4U_w":void 0,children:Zvi("ol",{className:"dKU0kQ",children:a.map(({Bq:c,key:d,variant:e="link"},f)=>{f=f===a.length-1;return Zvi($vi,{ariaCurrent:f?"page":void 0,aZi:!f,PTp:e==="link"&&!f,children:Zvi(c,{current:f})},d)})})})};
+__c.bwi=function({label:a,current:b,p7n:c,lw:d}){return a===""||a==null?null:c?Zvi(__c.nj,{tagName:"span",size:"medium",tone:b?"secondary":"primary",lineClamp:d?1:void 0,children:a}):Zvi(__c.W,{tagName:"span",size:"medium",tone:b?"secondary":"primary",lineClamp:d?1:void 0,children:a})};
+cwi=function({label:a,current:b,onClick:c,Ia:d,lw:e,icon:f,Cc:g}){a=f?Xvi(__c.Qg,{Da:"center",spacing:"0.25u",children:[f&&Zvi(f,{size:g||"small"}),Zvi(__c.bwi,{current:b,label:a,lw:e})]}):Zvi(__c.bwi,{current:b,label:a,lw:e});return d!=null?Zvi(__c.ih,{onClick:c,Ia:d,variant:"unstyled",children:a}):c!=null?Zvi(__c.Aj,{onClick:c,variant:"unstyled",children:a}):a};
+__c.dwi=function({breadcrumbs:a,lw:b}){return Zvi(__c.awi,{breadcrumbs:a.map(({label:c,onClick:d,Ia:e,icon:f,Cc:g})=>({key:c,Bq:({current:h})=>Zvi(cwi,{label:c,onClick:d,Ia:e,current:h,lw:b,icon:f,Cc:g})})),lw:b})};ewi=function(a){return{...a,Ia:a.href&&!a.onClick?__c.bi({url:a.href,type:"browser"}):void 0}};__c.gwi=function({breadcrumbs:a,lw:b}){const c=fwi(()=>a.map(ewi),[a]);return Zvi(__c.dwi,{breadcrumbs:c,lw:b})};hwi=__webpack_require__(613444);Zvi=hwi.jsx;Xvi=hwi.jsxs;var iwi=__webpack_require__,jwi=iwi(208463),Yvi=iwi.n_x(jwi)();var fwi=__webpack_require__(366533).useMemo;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/7b4a136abe3fd67e.js.map

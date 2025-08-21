@@ -1,0 +1,9 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[362726],{
+
+/***/ 885594:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(964938);__web_req__(891548);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Db=__c.Db;var kmo,lmo,mmo,nmo,imo,omo;__c.jmo=function(a,{method:b,countryCode:c,flow:d}){a.N.track(imo,{source:a.source,l1m:b,countryCode:c,flow:d})};kmo={eventType:"authenticating_element_clicked",Ra(a){return Db({component_name:a.Pc,source:a.source,location:a.location})}};lmo={eventType:"authenticating_oauth_initiated",Ra(a){return Db({source:a.source,oauth_provider:a.lne,location:a.location,flow_mode:a.T1})}};
+mmo={eventType:"authenticating_element_shown",Ra(a){return Db({source:a.source,component_name:a.Pc,location:a.location})}};nmo={eventType:"signup_submitted",Ra(a){return Db({location:a.location,source:a.source,mode:a.mode})}};imo={eventType:"code_verification_sent",Ra(a){return Db({source:a.source,code_distribution_method:a.l1m,country_code:a.countryCode,flow:a.flow})}};omo={eventType:"authenticating_oauth_email_binding_next_steps_received",Ra(a){return Db({platform:a.platform,is_email_binding_optional:a.Zcf})}};__c.pmo=class{EHf(a,b){this.N.track(nmo,{mode:b,source:this.source,location:a})}hzl(a){this.N.track(lmo,{...a,source:this.source})}RV(a){this.N.track(mmo,{...a,source:this.source})}US(a){this.N.track(kmo,{...a,source:this.source})}tRp(a){this.N.track(omo,a)}constructor({N:a,source:b,kz:c}){this.kz="NON_EXPIRING_USER";this.N=a;this.source=b;c&&(this.kz=c)}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/a3620c056ce7f729.js.map

@@ -1,0 +1,12 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[540958],{
+
+/***/ 993955:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(23050);__web_req__(838852);__web_req__(96539);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {__c.Pgi=function(a){switch(a){case "category":case "F_DESIGN_SPEC":case "F_INTENT":return"category";case "F_USER_LANGUAGE":return"user_language";case "feature":return"feature";case "format":return"format";case "STYLE":return"style";case "THEME":return"theme";case "F_COLOR":return"color";case "EDUCATION_TOPIC":return"education_topic";case "F_PRICING":case "F_SUBSCRIPTION":return"subscription";case "EDUCATION_SUBJECT":return"education_subject";case "print-ready":return"print-ready";case "EDUCATION_GRADE":return"education_grade";
+case "F_ORIENTATION":return"orientation";default:return"unknown"}};__c.Qgi=__c.Xa("4cdf25dd",0);__c.Rgi=new Set(["open_lightbox","open_suggestion","open_link"]);__c.Sgi=new Set(["filters_flyout_apply"]);
+__c.Tgi={TEMPLATES_HOME_PAGE:{jZ:"templates"},TEMPLATES_DISCOVER_PAGE:{jZ:"templates"},TEMPLATES_SEARCH_PAGE:{jZ:"templates_search"},TEMPLATES_CATEGORY_PAGE:{jZ:"templates_category"},TEMPLATES_CATEGORY_GROUPING_PAGE:{jZ:"templates_category_group"},TEMPLATES_COLLECTION_PAGE:{jZ:"templates_collection"},TEMPLATES_ITEM_PAGE:{jZ:"template_preview"},PHOTOS_HOME_PAGE:{jZ:"photos"},PHOTOS_SEARCH_PAGE:{jZ:"photos_search"},PHOTOS_ITEM_PAGE:{jZ:"photo_preview"},ICONS_HOME_PAGE:{jZ:"icons"},ICONS_SEARCH_PAGE:{jZ:"icons_search"},
+ICONS_ITEM_PAGE:{jZ:"icon_preview"},LESSON_TEMPLATES_SEARCH_PAGE:{jZ:"lesson_templates_search"},LESSON_TEMPLATE_ITEM_PAGE:{jZ:"lesson_template_preview"},LESSON_TEMPLATES_HOME_PAGE:{jZ:"lesson_templates"},TEMPLATE_SETS_ITEM_PAGE:{jZ:"template_set_preview"},CREATOR_PORTFOLIO_PAGE:{jZ:"creator_portfolio"},CONTENT_GROUP_PAGE:{jZ:"content_group"},FOLLOWING_PAGE:{jZ:"following"},CONCEPT_PAGE:{jZ:"concept"},PRODUCT_PAGE:{jZ:"product"},SHOWCASE_PAGE:{jZ:"showcase"},WORK_KIT_PAGE:{jZ:"work_kits"},EDITORIAL_PAGE:{jZ:"editorial"},
+ELEMENT_COLLECTION_PAGE:{jZ:"element_collection"},BENCHMARK_PAGE:void 0};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/f8617c8931237f77.js.map

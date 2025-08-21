@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[916595],{
+
+/***/ 107802:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(800269);__web_req__(202507);__web_req__(697181);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var esi,fsi,gsi,hsi;__c.dsi=({children:a,className:b,id:c,icon:d,Fn:e})=>(0,__c.ie)("div",{className:(0,__c.Re)("MXsJ_Q",b),id:c,children:(0,__c.gf)("label",{className:"ZjEpig",children:[__c.Qmb("start",{icon:d,Fn:e}),__c.Pmb(a),__c.Qmb("end",{icon:d,Fn:e})]})});esi=__webpack_require__(613444);fsi=esi.Fragment;gsi=esi.jsx;hsi=esi.jsxs;var isi=__webpack_require__,jsi=isi(208463),ksi=isi.n_x(jsi)();var lsi=__webpack_require__(366533),msi=lsi.useCallback,nsi=lsi.useImperativeHandle,osi=lsi.useRef;var psi;psi=()=>gsi(__c.AAd,{size:"medium",className:"_6zunIw"});
+__c.lC=(0,lsi.forwardRef)(({type:a="search",R$a:b="when-not-empty",ZRh:c=!0,yi:d,Maa:e,Afd:f=__c.rk,Na:g,c2:h,DF:k=!0,yVb:l,onKeyDown:n,start:p,end:q,...r},u)=>{const v=osi(null),w=msi(()=>{var y;d===null||d===void 0||d();c&&((y=v.current)===null||y===void 0||y.focus())},[c,d]),x=msi(()=>{g===null||g===void 0||g()},[g]);nsi(u,()=>({blur(){var y;(y=v.current)===null||y===void 0||y.blur()},focus(){var y;(y=v.current)===null||y===void 0||y.focus()},select(){var y;(y=v.current)===null||y===void 0||y.select()}}),
+[]);b=(b==="always"||b==="when-not-empty"&&!!r.value)&&!r.disabled;u=__c.Me(__c.Zgb,__c.ahb,__c.bhb);return gsi(__c.zr,{type:a==="search"?"search":"text",ref:v,icon:e||a==="text"?void 0:{type:a,align:"start"},DF:k,yVb:l!==null&&l!==void 0?l:u,onKeyDown:n,start:e||p?hsi(fsi,{children:[e&&gsi(__c.lDd,{label:__c.V("jnKKug"),icon:f,onClick:x,className:"UJzTCA"}),typeof p==="function"?p():p]}):void 0,end:b||q?hsi(fsi,{children:[b&&gsi(__c.lDd,{label:__c.V("R0JlWg"),icon:psi,onClick:w,className:"Dip1qQ"}),
+typeof q==="function"?q():q]}):void 0,...r,c2:ksi(h,"_3YOa7Q")})});
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/fa9a5cb5f5a45c76.js.map

@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[303793],{
+
+/***/ 761714:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(392273);__web_req__(925254);__web_req__(982542);__web_req__(205301);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Ma=__c.Ma;var L=__c.L;var z=__c.z;var H=__c.H;var OXh=H(()=>({type:z("A?",1,"TEMPLATE_CONTEXT"),Ta:L(1),Wa:L(2),EX:__c.Zb(3)}));__c.PXh=H(()=>({type:z("A?",9,"ACCESSED_CONTENT_ITEM_CONTEXT"),Db:Ma(1,__c.JXh)}));__c.QXh=H(()=>({type:z("A?",2,"DOCUMENT_ACCESS_CONTEXT"),r_d:Ma(1,__c.MXh)}));__c.RXh=H(()=>({type:z("A?",6,"TEMPLATE_ACCESS_CONTEXT"),r_d:Ma(1,__c.MXh)}));__c.SXh=__c.K(()=>[0,1,2,3,4,5,6,7]);var TXh=H(()=>({type:z("A?",3,"MEDIA_CONTEXT"),contentType:Ma(1,__c.SXh)}));__c.UXh=H(()=>({type:z("A?",4,"FOLDER_CONTEXT"),action:Ma(1,__c.LXh)}));var VXh=H(()=>({type:z("A?",5,"RECORDING_CONTEXT"),Pa:L(1)}));var WXh=H(()=>({type:z("A?",7,"BRANDKIT_CONTEXT"),SVq:L(4)}));var XXh=H(()=>({type:z("A?",8,"TEXT_GENERATOR_CONTEXT"),Db:Ma(5,__c.KXh)}));var YXh=H(()=>({type:z("A?",10,"DRAW_CONTEXT"),Vxl:Ma(11,__c.RWh)}));var ZXh=__c.Ta(()=>({type:[1,OXh,9,__c.PXh,2,__c.QXh,6,__c.RXh,3,TXh,4,__c.UXh,5,VXh,7,WXh,8,XXh,10,YXh]}),()=>({}));__c.$Xh=H(()=>({user:L(1),brand:L(2),item:__c.C(3,__c.FXh),IVb:__c.Pa(7,__c.NXh),context:__c.E(6,ZXh),timestamp:__c.ac(5)}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/aebbe63b06d4c377.js.map

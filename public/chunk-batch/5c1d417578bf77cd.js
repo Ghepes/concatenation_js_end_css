@@ -1,0 +1,12 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[63108],{
+
+/***/ 735462:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(896342);__web_req__(431858);__web_req__(370388);__web_req__(193662);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Kb=__c.Kb;var m=__c.m;var Ib=__c.Ib;var $Ec;
+__c.aFc=class{async ieg(a){__c.pa(a.category!=null&&/^t[a-zA-Z0-9_-]{10}$/.test(a.category));const b=Ib([$Ec,a.category]);__c.Gb(b,{domainName:m(a.Yd),locale:a.locale,contextualThumbnails:m(a.IWb)});a=Kb(b);const [c,{U$l:d}]=await Promise.all([this.ra.get(a,{Fa:"getcategory"}),__webpack_require__.me(527633).then(()=>({U$l:__c.UEc}))]);return d.deserialize(c)}async Y3e(a){const b=Ib([$Ec]);__c.Gb(b,{batch:m(a.Dx),domainName:m(a.Yd),locale:a.locale,creatable:m(a.t7m),creatableAncestor:m(a.pvc),parent:a.parent,
+ancestor:a.bMm,descendant:a.descendant,id:a.id,categoryTags:a.tba,minChildren:a.MDo,order:a.order&&__c.ZEc.serialize(a.order),thumbnailQuality:a.awl&&__c.Ni.serialize(a.awl),continuation:a.continuation,contextualThumbnails:a.IWb,limit:m(a.limit),bypassVisibilityAdminOnly:a.bWm});a=Kb(b);const [c,{M5l:d}]=await Promise.all([this.ra.get(a,{Fa:"findcategoriesapi"}),__webpack_require__.me(527633).then(()=>({M5l:__c.SEc}))]);return d.deserialize(c)}async dek(a){const b=Ib([$Ec]);__c.Gb(b,{batch:m(a.Dx),
+id:a.id,domainName:m(a.Yd),locale:a.locale});a=Kb(b);const [c,{T$l:d}]=await Promise.all([this.ra.get(a,{Fa:"getcategorybatchapi"}),__webpack_require__.me(527633).then(()=>({T$l:__c.VEc}))]);return d.deserialize(c)}async kzf(a){const b=Kb(Ib([$Ec,"document"])),[c,{Swm:d}]=await Promise.all([this.ra.post(b,__c.YEc.serialize(a),{Fa:"setdocumentcategory"}),__webpack_require__.me(527633).then(()=>({Swm:__c.WEc}))]);return d.deserialize(c)}async Fak(a){const b=Ib([$Ec,"template"]);__c.Gb(b,{templateIds:a.PV,
+mediaId:a.mediaId,mediaVersion:a.Hsa,readConsistency:a.Cxa&&__c.XEc.serialize(a.Cxa)});a=Kb(b);const [c,{W7l:d}]=await Promise.all([this.ra.get(a,{Fa:"findtemplatecategory"}),__webpack_require__.me(527633).then(()=>({W7l:__c.TEc}))]);return d.deserialize(c)}constructor(a){this.ra=a}};$Ec="category";__c.jga={};__c.jga.lpj=__c.aFc;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/5c1d417578bf77cd.js.map

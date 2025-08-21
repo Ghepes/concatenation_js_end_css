@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[325498],{
+
+/***/ 933919:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(73429);__web_req__(914830);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var hSn;
+__c.kSn=function({ie:a,Qmf:b,v0e:c,uc:d,N$h:e}){const f=gSn({Qmf:b});return c?g=>{var h;if(e===null||e===void 0?0:e(g))return hSn(iSn,{children:g.children});const {component:k,element:l}=__c.YF();var n;const {Lz:p,page:q,xo:r,category:u,resourceId:v,mediaId:w,Ac:x,Pr:y}=(n=d.VD)!==null&&n!==void 0?n:{},{TE:A,Ab:B}=k!==null&&k!==void 0?k:{};n={LWk:p,Pr:y,page:q,xo:r,Sqe:u,r4o:v!==null&&v!==void 0?v:w,kqf:x,zXk:A,d6o:k===null||k===void 0?void 0:(h=k.wxf)===null||h===void 0?void 0:h.$xj,hOj:B};return hSn(jSn,
+{ie:a,rfp:f({...n,...g,Ab:typeof g.Ab==="string"?g.Ab:n.hOj,bF:typeof g.bF==="number"?g.bF:l===null||l===void 0?void 0:l.bF}),children:g.children})}:iSn};hSn=__webpack_require__(613444).jsx;__webpack_require__(366533);var lSn=__webpack_require__(400770).observable;var jSn=({children:a,ie:b,rfp:c})=>hSn(__c.tH,{ie:b,Bt:d=>{d&&c()},Y5:!0,children:({ref:d})=>typeof a==="function"?a({ref:d}):hSn("div",{ref:d,children:a})});var mSn=a=>{const b=new Date;var c;return{...a,fIi:(c=a.fIi)!==null&&c!==void 0?c:b.toISOString()}},gSn=({timeout:a=1E3,veb:b=100,Qmf:c})=>{const d=new Map,e=new Map,f=(g,h,k)=>{const l=`${g}:${h}:${k!==null&&k!==void 0?k:""}`;var n=d.get(l);n=n?[...n]:[];d.set(l,[]);c(g,h,k,n)};return g=>{const h=g.Pr,k=g.zXk,l=g.hOj,n=typeof g.Ab==="string"?g.Ab:l;return h&&k?()=>{const p=`${h}:${k}:${n!==null&&n!==void 0?n:""}`,q=e.get(p);let r=d.get(p);r||(r=[],d.set(p,r));q&&(clearTimeout(q),e.delete(p));r.push(mSn({...g,
+Pr:h}));r.length>=b?f(h,k,n):e.set(p,setTimeout(()=>f(h,k,n),a))}:()=>{}}};var iSn=({children:a})=>typeof a==="function"?a({}):hSn("div",{children:a});__c.nSn=class{static G(a){__c.Q(a,{dUb:lSn.ref})}constructor(){this.dUb=(__c.nSn.G(this),void 0)}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/fda082a56d5c13d9.js.map

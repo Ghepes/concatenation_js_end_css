@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[357851],{
+
+/***/ 974750:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(18035);__web_req__(892006);__web_req__(741330);__web_req__(307328);__web_req__(166040);__web_req__(401235);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var PJl;var NJl,OJl;NJl=__webpack_require__(400770);OJl=NJl.observable;PJl=__c.PJl=NJl.runInAction;__c.QJl=new __c.Bc({status:2,Wm:!0});__c.hua=class{static G(a){__c.Q(a,{Xa:OJl.ref,aH:OJl.ref,Rv:OJl.ref})}static dTj(a,b){return new __c.hua({type:"user",user:a},b!==null&&b!==void 0?b:__c.QJl)}constructor(a,b){this.resource=a;__c.hua.G(this);this.Xa=b}};
+__c.RJl=class{async NDe(a,b){return a.resource.type==="brand"?this.JJf(a,b,a.resource.brand):this.jdj(a,b,a.resource.user)}async JJf(a,b,c){const d=await this.UDg(b);this.mib(d);const e=await this.zka.Nw({content:d,name:b.name,type:b.type},{type:"brand",brand:c});PJl(()=>{a.aH=e;a.Rv=this.url.createObjectURL(b)})}async jdj(a,b,c){const d=await this.UDg(b);this.mib(d);const e=await this.zka.Nw({content:d,name:b.name,type:b.type},{type:"user",user:c});PJl(()=>{a.aH=e;a.Rv=this.url.createObjectURL(b)})}async UDg(a){var b=
+await __c.L0d(a);b=await this.nLd(b);a=await this.gxc(b,2048,2048,a.type);return __c.M0d(a.url)}mib(a){if(a.size>this.Ts.s2)throw new __c.dzk;if(!this.Ts.mimeTypes.includes(a.type))throw new __c.ezk;}async htg(a,b){var c=a.aH;if(c)if(await c.finished,c.error)PJl(()=>{a.Rv=__c.Mr(a.Xa,b)});else{var d=c.Xa;(c=__c.Ng(d.images,b))&&await this.nLd(c);await this.kc.gcf();PJl(()=>{a.Xa=d});this.Qii(a)}}Qii(a){a.Rv&&(this.url.revokeObjectURL(a.Rv),PJl(()=>{a.Rv=void 0}))}constructor(a,b,c){var d=URL;this.Ts=
+a;this.zka=b;this.kc=c;this.gxc=__c.N0d;this.nLd=__c.$t;this.url=d}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/92813a2e9b6ad28d.js.map

@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[676331],{
+
+/***/ 929995:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(771161);__web_req__(429426);__web_req__(179149);__web_req__(394293);__web_req__(127768);__web_req__(489307);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var V=__c.V;var V7k,W7k,X7k;__c.U7k=function(a){return new __c.S7k(new __c.UA({type:__c.T7k.nEd(a.type),object:a.id,$r:a.MJ}))};V7k=__webpack_require__(400770);W7k=V7k.observable;X7k=V7k.runInAction;__c.S7k=class{static G(a){__c.Q(a,{$r:W7k.ref})}constructor(a){__c.S7k.G(this);this.kr=a;this.$r=this.kr.$r}};
+__c.T7k=class{static nEd(a){switch(a){case "TEMPLATE":return 2;case "ICON":case "PHOTO":return 1;default:throw new __c.t(a);}}async toggle(a,b,c){if(a.kr.$r===a.$r){var d=__c.Q7k(c);X7k(()=>{a.$r=!a.$r});try{let e;e=a.kr.$r?await this.p3a(a):await this.W2a(a);X7k(()=>{a.kr=e;a.$r=e.$r});a.kr.$r?this.ha.fb({Za:V("7zD14g"),group:this.fso,media:d,Ul:{buttonText:V("moswxA"),onClick:()=>{this.Ga.$X({id:"likes"})}}}):this.ha.fb({Za:V("7lcS/Q"),group:this.fUp,media:d})}catch(e){X7k(()=>{a.$r=a.kr.$r}),this.ha.fb({Za:a.kr.$r?
+V("/Vh6yw"):V("074R1Q"),group:this.vOn,media:d,Ul:{buttonText:V("Wos1mg"),onClick:()=>{__c.Y7k(this.wB,b,a.kr.object,!a.$r);this.toggle(a,b,c)}}})}}}async W2a(a){return(await this.uE()).W2a(new __c.Ynj({body:{brand:this.brand,user:this.user,type:a.kr.type,object:a.kr.object}})).then(b=>b.kr)}async p3a(a){return(await this.uE()).p3a(new __c.R7k({body:{brand:this.brand,user:this.user,type:a.kr.type,object:a.kr.object}})).then(b=>b.kr)}constructor(a,b,c,d,e,f){this.brand=a;this.user=b;this.wB=c;this.uE=
+d;this.ha=e;this.Ga=f;this.fso=Symbol("LIKE");this.fUp=Symbol("UNLIKE");this.vOn=Symbol("FAILED")}};__c.Y7k=(a,b,c,d)=>{c=new __c.t2h({resourceId:c,MJ:d});a.Yi(b,c)};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/5fd9f77d61e30b8a.js.map

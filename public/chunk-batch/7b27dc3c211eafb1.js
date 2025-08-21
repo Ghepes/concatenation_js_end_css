@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[770605],{
+
+/***/ 903458:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(104387);__web_req__(581135);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var gc=__c.gc;var M=__c.M;var H=__c.H;__c.Qrc=H(()=>({width:__c.Zb(1),height:__c.Zb(2),reference:__c.E(3,__c.prc),url:M(4),Yba:M(5)}));var Rrc=H(()=>({zAa:__c.L(1),psl:M(2)}));__c.Src=__c.K(()=>[1,2,3,4,5],1);var Trc=__c.K(()=>[1,"COMMERCIALLY_SAFE"]);__c.Urc=H(()=>({type:__c.Ma(1,Trc)}));var Vrc=H(()=>({dJ:__c.L(1),FGl:__c.L(2)}));var Wrc=__c.K(()=>[1,2,3,4],1);var Xrc=H(()=>({track:M(1),artist:M(2),doo:M(3),label:M(4),vendor:M(5)}));__c.Yrc=H(()=>({JD:__c.Zb(1),e9d:__c.Yb(17),M1a:__c.La(2,__c.Qrc),title:M(3),kKc:__c.Oa(20,__c.Prc),zAa:gc(4),psl:gc(19),hqr:__c.La(21,Rrc),CFd:gc(5),kQe:__c.dc(6),yTg:gc(7),artist:gc(8),album:M(25),label:M(9),REg:gc(10),Pnd:gc(11),lMb:__c.ic(12),tN:__c.ic(38),J1a:__c.Oa(22,__c.Src),YY:__c.La(34,__c.Urc),eJi:__c.ec(13),L:gc(14),description:M(15),CEp:__c.E(16,Vrc),Hff:M(23),INb:M(24),doo:M(26),cDj:M(27),dhp:M(28),kgb:M(29),ehp:M(30),spo:M(31),bVe:gc(32),nor:__c.Oa(35,Wrc),K1q:__c.La(37,Xrc)}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/7b27dc3c211eafb1.js.map

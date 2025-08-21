@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[319741],{
+
+/***/ 208054:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var K=__c.K;var M=__c.M;var H=__c.H;__c.lSc=H(()=>({ae:M("externalId",1),displayName:M("displayName",2),PUf:M("artistUrl",3)}));var mSc=K(()=>[1,"COMMERCIALLY_SAFE",2,"EXTERNAL_USE"]);__c.nSc=H(()=>({type:__c.Ma(1,mSc)}));__c.oSc=K(()=>[0,1]);__c.pSc=H(()=>({bVe:__c.gc(1),gXm:__c.N(2,!0),nsc:__c.N(3),QKr:__c.N(4)}));__c.qSc=H(()=>({locale:__c.L("locale",1,"en"),title:M("title",2),description:M("description",3),L:__c.gc("keywords",4),WSd:__c.gc("superKeywords",5),altText:M("altText",6)}));__c.rSc=K(()=>[1,"GENERAL",2,"PARENTAL_GUIDANCE",3,"GENERAL_5PLUS",4,"PARENTAL_GUIDANCE_13PLUS",5,"MATURE_15PLUS"]);__c.wo=H(()=>({ID:(0,__c.jc)("dominantColors",1),rWb:(0,__c.rxa)("colorHistogram",2),uYr:__c.gc("recolorableVectorColors",3),zds:__c.bc("transparencyPercent",4)}));__c.sSc=K(()=>[1,"PENDING_SUBMISSION",2,"PENDING_REVIEW",3,"APPROVED",4,"SOFT_REJECTED",5,"HARD_REJECTED",6,"ETCH_REJECTED",7,"SET_REJECTED",8,"DIFFICULT_VECTOR_REJECTED",9,"CANCELLED"]);var tSc=K(()=>[1,"MODERN",2,"STOCK"]);__c.uSc=H(()=>({quality:__c.dc("quality",1),f4q:__c.ic("curated",2),style:__c.Oa("style",3,tSc),g9j:__c.ec("featured",4)}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/db4adfed5439103c.js.map

@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[754826],{
+
+/***/ 60488:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var oui='<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.334 8a6.667 6.667 0 1 0 13.333 0A6.667 6.667 0 0 0 1.334 8ZM13.5 8c0 3.13-2.37 5.5-5.5 5.5-3.129 0-5.5-2.37-5.5-5.5S4.871 2.5 8 2.5c3.13 0 5.5 2.37 5.5 5.5Zm-6.512 2.361a.5.5 0 0 0 .692 0l.008-.007 1.666-1.667 1.667-1.667a.5.5 0 0 0-.707-.707l-2.98 2.98L6.021 7.98c-.472-.472-1.179.236-.707.707l1.663 1.663.011.011Zm0 0-.008-.007.008.007Z" fill="currentColor"/></svg>';var pui='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12Zm18.5 0a8.5 8.5 0 1 1-17 0 8.5 8.5 0 0 1 17 0Zm-10.019 3.542a.75.75 0 0 0 1.05-.012l5-5a.75.75 0 1 0-1.061-1.06L11 13.94l-1.97-1.97c-.707-.708-1.767.353-1.06 1.06l2.494 2.495m.017.017-.011-.012.011.012Z" fill="currentColor"/></svg>';__c.rC=__c.Vi({small:oui,medium:pui});
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/a059b4bde8b4faa1.js.map

@@ -1,0 +1,12 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[19511],{
+
+/***/ 734810:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(944264);self._456c437108d2d2713799e19380be528d = self._456c437108d2d2713799e19380be528d || {};(function(__c) {var mh=__c.mh;var oh=__c.oh;var U=__c.U;var v4z=__c.H(()=>({JAa:__c.T(1),tu:(0,__c.Ap)(2),selection:U(3),DD:U(4),Wsg:U(5),uQc:__c.Qa(6,__c.ZQp)}));var w4z=__c.H(()=>({formula:__c.T(1),tu:(0,__c.Ap)(2),selection:U(3),pQo:U(4),Wsg:U(5)}));var y4z,x4z;
+y4z=class{async O8i(a){const b=oh(mh([x4z,"write"])),[c,{uAp:d}]=await Promise.all([this.Da.post(b,v4z.serialize(a),{Ra:"writeformula"}),__webpack_require__.me(876703).then(()=>({uAp:__c.lps}))]);return d.deserialize(c)}async Nam(a){const b=oh(mh([x4z,"write","async"])),[c,{USo:d}]=await Promise.all([this.Da.post(b,__c.$Qp.serialize(a),{Ra:"asyncwriteformula"}),__webpack_require__.me(876703).then(()=>({USo:__c.Yos}))]);return d.deserialize(c)}async kVn(a){__c.na(a.tc!=null&&/^[a-zA-Z0-9_-]+$/.test(a.tc));a=
+oh(mh([x4z,"write",a.tc]));const [b,{Amp:c}]=await Promise.all([this.Da.get(a,{Ra:"pollwriteformula"}),__webpack_require__.me(876703).then(()=>({Amp:__c.u4z}))]);return c.deserialize(b)}async C4h(a){const b=oh(mh([x4z,"explain"])),[c,{G4o:d}]=await Promise.all([this.Da.post(b,w4z.serialize(a),{Ra:"explainformula"}),__webpack_require__.me(876703).then(()=>({G4o:__c.Zos}))]);return d.deserialize(c)}async Kam(a){const b=oh(mh([x4z,"explain","async"])),[c,{TSo:d}]=await Promise.all([this.Da.post(b,__c.YQp.serialize(a),
+{Ra:"asyncexplainformula"}),__webpack_require__.me(876703).then(()=>({TSo:__c.Xos}))]);return d.deserialize(c)}async gVn(a){__c.na(a.tc!=null&&/^[a-zA-Z0-9_-]+$/.test(a.tc));a=oh(mh([x4z,"explain",a.tc]));const [b,{ymp:c}]=await Promise.all([this.Da.get(a,{Ra:"pollexplainformula"}),__webpack_require__.me(876703).then(()=>({ymp:__c.ips}))]);return c.deserialize(b)}async LXm(){const a=oh(mh([x4z,"quota"])),[b,{obp:c}]=await Promise.all([this.Da.get(a,{Ra:"getmagicformulaquota"}),__webpack_require__.me(876703).then(()=>
+({obp:__c.aps}))]);return c.deserialize(b)}constructor(a){this.Da=a}};x4z="formula";__c.APa={};__c.APa.Sep=y4z;
+}).call(self, self._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/593d845246baa399.js.map

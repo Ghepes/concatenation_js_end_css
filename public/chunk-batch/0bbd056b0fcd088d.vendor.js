@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_canva_web=self.webpackChunk_canva_web||[]).push([[35258],{870516:(e,a,n)=>{function c(e){return e instanceof Date&&!isNaN(+e)}n.d(a,{$:()=>c})}}]);
+//# sourceMappingURL=sourcemaps/0bbd056b0fcd088d.vendor.js.map

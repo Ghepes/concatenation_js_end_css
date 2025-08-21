@@ -1,0 +1,10 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[957023],{
+
+/***/ 540192:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(395616);__web_req__(912436);__web_req__(157643);__web_req__(142810);__web_req__(698359);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var ci=__c.ci;var Ib=__c.Ib;var Jb=__c.Jb;var Kb=__c.Kb;var zoj;__c.Aoj=function(a){a=(a===null||a===void 0?0:a.Ztg)?new zoj(a.Ztg):new __c.xoj(a===null||a===void 0?void 0:a.kLd);return __c.Tcj(a)};
+zoj=class{async Or(a){a=Kb(Jb(Ib(["pages","home","home"]),"url",a.path));await this.client.navigateTo(a);return new __c.Kcj}async PP(a){a=Kb(Jb(Ib(["pages","home","home"]),"url",a.path));await this.client.navigateTo(a);return new __c.Rcj}async nZa(a){a=Kb(Jb(Ib(["pages","design_viewer","design_viewer"]),"url",a.path));await this.client.navigateTo(a);return new __c.Jcj}async YO(a){a=Kb(Jb(Ib(["pages","editor","editor"]),"url",a.path));await this.client.navigateTo(a);return new __c.Xcj({})}async j6a(a){a=
+Kb(Jb(Ib(["pages","home","home"]),"url",a.path));await this.client.navigateTo(a);return new __c.Mcj}constructor(a){this.client=a;this.Nk=ci(this.Or.bind(this));this.oB=ci(this.PP.bind(this));this.jgc=ci(this.nZa.bind(this));this.BAa=ci(this.YO.bind(this));this.dyb=ci(this.j6a.bind(this))}};__c.Boj=class{async Gli(a){await this.Xd.VFc(new __c.ddj({path:__c.yoj(),target:__c.XD(a===null||a===void 0?void 0:a.target)}))}sfg(a){return this.Xd.o_c(new __c.ddj({path:__c.yoj(),target:__c.XD(a===null||a===void 0?void 0:a.target)}))}constructor(a){this.Xd=a}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/1a6ecaee4a51c43f.js.map

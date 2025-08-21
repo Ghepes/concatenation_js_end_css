@@ -1,0 +1,12 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[826836],{
+
+/***/ 382027:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var IXd=__webpack_require__(613444),JXd=IXd.jsx,KXd=IXd.jsxs;var LXd=__webpack_require__,MXd=LXd(208463),NXd=LXd.n_x(MXd)();var OXd=__webpack_require__(366533),PXd=OXd.useCallback,QXd=OXd.useEffect,RXd=OXd.useRef,SXd=OXd.useState;var TXd=__webpack_require__(316620).A;var UXd,VXd,WXd;UXd=parseInt("2000ms",10)+100||2E3;VXd=["aJFp1g AdcdQg","VtWaFQ AdcdQg","_jSw2Q AdcdQg","u49jNQ AdcdQg"];WXd=[2E3,3E3,4E3,2E3];
+__c.Jt=a=>{const {value:b,ariaLabel:c,size:d="medium",tone:e="info",zo:f,Eca:g,h8d:h,stretch:k=!1}=a,[l,n]=SXd([]),p=__c.xb(),q=RXd({Lmh:0,yyh:!1,Xui:0,width:0}),r=PXd(()=>{const w=Date.now(),x=q.current.width/100*b;var y=Math.ceil(x*.13);const A=y-l.length;let B=!1;y=Array.from({length:A<0?y:Math.ceil(l.length+A/2)},(D,F)=>{D=l[F];return D===void 0||w>WXd[D.type]+D.start?(B=!0,{Htl:D?!D.Htl:!1,type:Math.floor(Math.random()*VXd.length),position:Math.floor(Math.random()*x),start:w}):D});B&&n(y);window.clearTimeout(q.current.Lmh);
+q.current.Lmh=window.setTimeout(r,1E3)},[l,b]),u=PXd(()=>{window.clearTimeout(q.current.Xui);q.current.yyh||(q.current.yyh=!0,g&&g(b))},[g,b]);QXd(()=>{const w=q.current.Lmh;return()=>{window.clearTimeout(w)}},[]);QXd(()=>{p&&!h&&r();__c.qa(b>=0&&b<=100,`value must be in [0, 100]; got ${b}`);q.current.yyh=!1;window.clearTimeout(q.current.Xui);q.current.Xui=window.setTimeout(u,UXd)},[b,h,u,r,p]);const v={transform:`scaleX(${b/100})`};return JXd(TXd,{onResize:w=>{w.entry&&(q.current.width=w.entry.width)},
+children:({measureRef:w})=>JXd("div",{ref:w,className:NXd("WOKrpg",{_0RC5lQ:k,w29trQ:d==="small",BwUf7g:e==="critical",aBvcYQ:!f&&p}),role:"progressbar","aria-label":c,"aria-valuemin":0,"aria-valuenow":b,"aria-valuemax":100,children:JXd("div",{className:"LaSi3g mPCClQ",style:{"--qaorvg":`${b-100}%`},children:KXd("div",{className:"LaSi3g mPCClQ",style:{"--qaorvg":`${100-b}%`},children:[JXd("div",{className:"QgOdhA mPCClQ",style:v,onTransitionEnd:u}),l.map(({position:x,type:y,Htl:A},B)=>JXd("div",{className:NXd(VXd[y],
+{mYGiIA:A}),style:{"--2b1ctA":`${x}px`}},B))]})})})})};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/70e1f9e9ca67084c.js.map

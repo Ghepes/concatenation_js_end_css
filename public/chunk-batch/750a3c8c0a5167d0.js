@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[839220],{
+
+/***/ 690757:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(810901);__web_req__(47755);__web_req__(157643);__web_req__(530567);__web_req__(950413);__web_req__(684912);__web_req__(283954);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {__c.Rub=class{static CR(a){const b=new Promise(c=>{const d=()=>{window.removeEventListener("pagehide",d);c()};window.addEventListener("pagehide",d)});window.location.replace(a);return b}validate(a){return this.j7.validate(a)}gcf(){return __c.ctb(this.j7)}TCc(){return this.j7.ccf(new __c.Ftb({}))}dcf(){return __c.ftb(this.j7)}Ohc(){return __c.itb(this.j7)}refresh(){return this.j7.refresh(new __c.Gtb({}))}zuc(a,b){return this.j7.zuc(a,b)}async signOut(a=__c.zk.Gsb,b,c){try{await (await this.TB()).IXe()}catch(e){var d;
+(d=this.errorService)===null||d===void 0||d.ia(e)}await __c.Zsb(this.Wgf,__c.Htb(a));a=__c.Kb(__c.Ib(["pages","home","home"]));c=__c.Kb(__c.Jb(__c.Jb(__c.Ib(["pages","login","login"]),"redirect",a),"email",c));this.client.Xpb(c);return new __c.gKa}N_b(a){return __c.bi({type:"callback",navigate:async()=>{await this.signOut(a,void 0)}})}rW(a){const b=a.navigation,c=a.Xh;if(b===1)return this.Pcb(c);if(b!==2){if(b===3)return this.Pcb(c,new __c.GNa({designId:a.designId,extension:a.extension,D8:2,sb:a.sb}));
+if(b!==4){if(b===5)return this.Pcb(c,new __c.GNa({designId:a.designId,extension:a.extension,D8:1,sb:a.sb}));if(b!==6&&b!==7&&b!==9&&b!==10&&b!==8&&b!==11){if(b===12)return this.Pcb(c,new __c.ENa);if(b!==13&&b!==14&&b!==15&&b!==16&&b!==22&&b!==23&&b!==24&&b!==25&&b!==26&&b!==27&&b!==28&&b!==29&&b!==17&&b!==18&&b!==19&&b!==21&&b!==20&&b!==30&&b!==31&&b!==32)throw new __c.t(b);}}}}Pcb(a,b){return __c.bi({type:"callback",navigate:async()=>{const c=__c.Ssb(a,b&&__c.Vsb(b));await __c.Rub.CR(c)}})}constructor(a,
+b,c,d,e,f,g=!1){this.j7=a;this.Wgf=c;this.client=d;this.errorService=e;this.TB=f;this.sLh=g;__c.Jub.load()}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/750a3c8c0a5167d0.js.map

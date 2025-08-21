@@ -1,0 +1,12 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[633117],{
+
+/***/ 643578:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(381341);__web_req__(577747);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var V=__c.V;
+var yzk=function(a){switch(a){case "apple":return V("Ys3NqQ");case "clever":return V("nWEQTg");case "email":return V("jnT/mQ");case "passkey":return V("jnT/mQ");case "facebook":return V("tUc6Ow");case "google":return V("bx/cGg");case "kakao":return V("au1cLg");case "keycloak":return V("ucchJQ");case "line":return V("4pO5Ug");case "microsoft":return V("UiXgBQ");case "naver":return V("9cU0bw");case "quick_phone_number":case "phone":return V("lPZRZQ");case "qq":return V("yE0DMw");case "wechat":return V("fEowpw");case "weibo":return V("MqoPiA");
+case "yahoo_jp":return V("iLZH1g");case "turkey_edu":return V("ezEG7A");default:throw new __c.t(a);}},zzk=__webpack_require__(613444),OG=zzk.jsx,Azk=zzk.jsxs;var Bzk=__webpack_require__(366533).memo;var Ezk;__c.Czk=Bzk(({vfd:a,Ll:b,errorMessage:c,G7g:d,yf:e,gb:f,rwm:g,hsd:h})=>{c=Array.isArray(c)?c[0]:c;return Azk("div",{className:"_tWwOw",children:[Azk(__c.nf,{spacing:"2u",children:[d&&OG(d,{}),OG(e,{}),OG(b,{location:"primary_auth_options_panel",message:c}),OG(a,{}),g&&OG(g,{})]}),f&&Azk("div",{className:h?"fvo_iA":void 0,children:[OG(__c.Uh,{size:"2u"}),OG(f,{})]})]})});
+__c.Dzk=Bzk(({rl:a,mode:b,alignment:c})=>{b=yzk(b);return OG("div",{className:"u8etQw",children:OG(__c.NG,{heading:V("6vm78A"),Wc:b,rl:a,alignment:c})})});Ezk=(a=>a.map((b,c)=>OG(__c.W,{tone:"secondary",children:b},c)))([V("EPSYww"),V("j2Tw0Q"),V("GStrsw")]);__c.Fzk=Bzk(({heading:a=V("1O6HpA"),Wc:b=V("aZDPZA"),rl:c})=>OG(__c.NG,{heading:a,Wc:b,rl:c}));
+Bzk(({yf:a=()=>OG(__c.Fzk,{}),cL:b=Ezk})=>Azk("div",{className:"NUc_Zw",children:[OG(a,{}),OG(__c.Et,{icon:OG(__c.wj,{size:"medium"}),children:b.map((c,d)=>OG(__c.Ft,{children:c},d))})]}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/998fdaa3cbdbcf28.js.map

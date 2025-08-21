@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[185079],{
+
+/***/ 594420:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(11452);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var BNd=__webpack_require__(613444).jsx;var CNd=__webpack_require__,DNd=CNd(208463),ENd=CNd.n_x(DNd)();var FNd=__webpack_require__(813494).observer;var GNd=__webpack_require__(366533),HNd=GNd.forwardRef,INd=GNd.PureComponent,JNd=GNd.useCallback,KNd=GNd.useRef;var LNd=__webpack_require__(27950).A;var MNd,NNd;MNd=parseInt("300ms",10)||0;
+__c.ONd=class extends INd{render(){const {Xtc:a=!0,cYj:b,store:c,yqa:d,Yf:e,HDg:f}=this.props;return BNd("div",{className:ENd("_6pquuA",{_nNLcA:e==="intrinsic"}),children:BNd(__c.rMd,{Wib:b?this.Wib:this.lGm,store:c,Xtc:a,HDg:f,yqa:d})})}constructor(...a){super(...a);this.Wib=FNd(({Kc:b,fs:c,children:d,V6b:e,Wi:f})=>{const g=this.props.Xdc,h=this.props.Cge,k=this.props.Yf;b=c.Em.indexOf(b);return BNd(NNd,{selected:c.uY===b,animate:!1,Xdc:g,EMb:h,Wi:f,V6b:e,Yf:k,children:BNd("div",{className:"SJGm7g",
+children:d})})});this.lGm=FNd(({Kc:b,fs:c,children:d,V6b:e,Wi:f})=>{const g=this.props.Xdc,h=this.props.Cge,k=this.props.Yf;b=c.Em.indexOf(b);var l=__c.SNa()==="RTL"?1:-1;c=Math.sign(c.uY-b)*l;b=c===0;l=__c.xb();const n=KNd(null);return BNd(LNd,{in:b,timeout:l?MNd:0,classNames:{enterActive:"KUdgDQ",exitActive:"KUdgDQ"},nodeRef:n,children:BNd(NNd,{selected:b,animate:l,Xdc:g,EMb:h,Wi:f,V6b:e,Yf:k,ref:n,children:BNd("div",{style:{"--WjZaeQ":l?c:void 0},className:"SJGm7g",children:d})})})})}};
+NNd=FNd(HNd(({children:a,selected:b,animate:c,Xdc:d=!0,EMb:e=!0,Wi:f,V6b:g,Yf:h="fill"},k)=>{const l=JNd(()=>__c.me.Kta("mouse"),[]);c=ENd("Y8pZZQ",{otR6Pg:b,SH8a_Q:c,HrQwOw:__c.me.EM,_nNLcA:h==="intrinsic"});return d?BNd("div",{role:"tabpanel",tabIndex:e?0:-1,id:f,"aria-labelledby":g,"aria-hidden":b?void 0:!0,onMouseDown:l,className:c,ref:k,children:a}):BNd("div",{className:c,children:a})}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/302faa8e74b72f78.js.map

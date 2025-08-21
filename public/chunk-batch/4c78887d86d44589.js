@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[349892],{
+
+/***/ 300572:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var xDn='<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 3.227c.638 0 1.156.518 1.156 1.156v3.609a1.156 1.156 0 1 1-2.312 0V4.383c0-.638.518-1.156 1.156-1.156Zm0-1.25a2.406 2.406 0 0 1 2.406 2.406v3.609a2.406 2.406 0 0 1-4.812 0V4.383A2.406 2.406 0 0 1 8 1.977ZM5.066 8.568a.625.625 0 0 0-1.212.307c.44 1.737 1.849 3.086 3.695 3.277v.802H5.618a.625.625 0 1 0 0 1.25h4.764a.625.625 0 1 0 0-1.25h-1.93v-.802c1.845-.19 3.255-1.54 3.694-3.277a.625.625 0 1 0-1.212-.307C10.587 9.943 9.441 10.925 8 10.925c-1.44 0-2.587-.982-2.934-2.357Z" fill="currentColor"/></svg>';var yDn='<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3.5A2.5 2.5 0 0 0 9.5 6v6a2.5 2.5 0 1 0 5 0V6A2.5 2.5 0 0 0 12 3.5zm.75 15.2v1.55h3.5a.75.75 0 1 1 0 1.5h-8.5a.75.75 0 1 1 0-1.5h3.5v-1.54a6.75 6.75 0 0 1-5.89-5.49.75.75 0 0 1 1.48-.27 5.25 5.25 0 0 0 10.32 0 .75.75 0 1 1 1.48.27 6.75 6.75 0 0 1-5.89 5.49zM12 2a4 4 0 0 1 4 4v6a4 4 0 1 1-8 0V6a4 4 0 0 1 4-4z"/></svg>';__c.zDn=__c.Vi({small:xDn,medium:yDn});
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/4c78887d86d44589.js.map

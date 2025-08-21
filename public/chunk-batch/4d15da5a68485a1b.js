@@ -1,0 +1,11 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[970644],{
+
+/***/ 284001:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(840660);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var XXd,YXd;
+__c.eYd=function({children:a,keyFrame:b,Z4:c,ariaLive:d,Wzb:e=!1,bkd:f,Gy:g,y0j:h,Szn:k,FJa:l,SPa:n,Izn:p,BCe:q}){const {XXa:r}=__c.qt(),{tTh:u,removeFrame:v}=XXd(b,a),w=__c.oVd(x=>()=>{(e===!1||typeof e==="function"&&!e(x))&&v(x)},[v,e]);return YXd("div",{className:ZXd(g,"_9GxJfQ",{KwB0XQ:l==="hidden",WV1Mmw:c==="fill-height",_2uSJxw:c==="flex-grow"}),children:YXd("div",{className:ZXd("m2VaAA",h),"aria-live":d,style:k,role:"region",children:[...u.map(({key:x,element:y})=>YXd($Xd,{in:x===b,timeout:f,
+classNames:q,mountOnEnter:!0,unmountOnExit:!e,nodeRef:r(x),onExited:w(x),children:A=>YXd(__c.aYd.Provider,{value:A,children:YXd("div",{className:ZXd("KxXR9g",p,{KwB0XQ:n==="hidden"}),ref:r(x),"aria-hidden":A===bYd||A===cYd||A===dYd,children:x===b?a:y})})},x)),u.every(x=>x.key!==b)&&YXd($Xd,{in:!1,timeout:f,classNames:q,mountOnEnter:!0,unmountOnExit:!e,nodeRef:r(b),onExited:e?void 0:w(b),children:x=>YXd(__c.aYd.Provider,{value:x,children:YXd("div",{className:ZXd("KxXR9g",p),ref:r(b),"aria-hidden":x===
+bYd||x===cYd||x===dYd,children:a})})},b)]})})};XXd=function(a,b){const [c,d]=fYd(()=>[{key:a,element:b}]);gYd(()=>{d(f=>f.every(g=>g.key!==a)?f.concat({key:a,element:b}):f.map(g=>g.key===a?{key:a,element:b}:g))},[a,b]);const e=hYd(f=>{d(g=>g.filter(h=>h.key!==f))},[]);return{tTh:c,removeFrame:e}};YXd=__webpack_require__(613444).jsx;var iYd=__webpack_require__,jYd=iYd(208463),ZXd=iYd.n_x(jYd)();var kYd,lYd,hYd,gYd,fYd;kYd=__webpack_require__(366533);lYd=kYd.createContext;hYd=kYd.useCallback;__c.mYd=kYd.useContext;gYd=kYd.useEffect;fYd=kYd.useState;var $Xd=__webpack_require__(27950).A;var nYd=__webpack_require__(833299),dYd=nYd.kp,cYd=nYd.qD,bYd=nYd.ze;__c.aYd=lYd(void 0);
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/4d15da5a68485a1b.js.map

@@ -1,0 +1,10 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[545297],{
+
+/***/ 288914:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(86161);__web_req__(685826);__web_req__(259293);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Zpu=__webpack_require__(613444),$pu=Zpu.Fragment,aqu=Zpu.jsx;var bqu=__webpack_require__(813494).observer;var cqu=__webpack_require__(366533),dqu=cqu.lazy,equ=cqu.Suspense;var fqu=__webpack_require__(400770),gqu=fqu.action,hqu=fqu.observable;__c.Mpa={haq:{iHe:"D",ggm:"I",YNq:"WG",ZNq:"WK"},lBo:({V:a,Nb:b,NUe:c,I:d})=>{var e,f;const g=d.Xb;if(c){var h=(new Map([["D".valueOf(),{attribute:"DEPARTMENT"}],["I".valueOf(),{attribute:"INDUSTRY_USER"}],["WG".valueOf(),{attribute:"TEAM_MEMBER_GOALS"}],["WK".valueOf(),{attribute:"COMPANY_SIZE_USER"}]])).get(c);if(h&&!(__c.Nh(17,(e=a.jl)===null||e===void 0?void 0:e.Cq)||__c.rr(Date.now(),a.user.Df)>7)){var k=()=>null,l=hqu.box(""),n=dqu(async()=>{var {K$m:q}=await __webpack_require__.me(693784).then(()=>
+({K$m:__c.Ypu}));({TGe:q}=q({V:a,Nb:b,NUe:c,I:d}));return{default:q}});e=()=>{g.q4(new __c.Xo({Vq:[new __c.Wo({DQ:"PAGE__HOME__BOOTSTRAP",...h})]})).then(gqu(q=>{q=q.responses[0].attribute.Ss;let r="";q.attributeType==="STRING_ATTRIBUTE_VALUE"?r=q.value:q.attributeType==="STRING_LIST_ATTRIBUTE_VALUE"?r=q.values[0]:q.attributeType==="RANGE_ATTRIBUTE_VALUE"&&q.max!==void 0&&q.max<=9&&(r="small-business");l.set(r)})).catch(gqu(()=>{l.set("")}))};var p=bqu(()=>{const q=l.get();return aqu($pu,{children:q?
+aqu(equ,{fallback:aqu(k,{}),children:aqu(n,{query:q})}):null})});__c.Nh(15,(f=a.jl)===null||f===void 0?void 0:f.Cq)&&e();return{TGe:p,cgp:e}}}}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/40ebd832bf6987d7.js.map
