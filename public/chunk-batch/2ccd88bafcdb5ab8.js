@@ -1,0 +1,14 @@
+;// __FILE_CONTENT_FOR__:2ccd88bafcdb5ab8.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[989420],{
+
+/***/ 826938:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(429933);__web_req__(67622);__web_req__(135446);__web_req__(42185);__web_req__(412141);__web_req__(32188);__web_req__(635884);__web_req__(621575);__web_req__(614919);__web_req__(589667);__web_req__(240813);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var V0c;
+__c.Z0c=class{async u$j(a,b){const c=b&&b.xa&&this.da&&this.da.startSpan("asyncfinalizegatewayredirect.http_client",b.xa);b=__c.Kb(__c.Ib([V0c,"finalize-gateway-redirect-async"]));const d={rd:c&&{xa:c},Fa:"asyncfinalizegatewayredirect"},[e,{gqc:f}]=await Promise.all([this.ra.post(b,__c.T0c.serialize(a),d).catch(g=>{c&&c.end("error",new Map([["error_type","http_request"]]));throw g;}),__webpack_require__.me(181863).then(()=>({gqc:__c.W0c})).catch(g=>{c&&c.end("error",new Map([["error_type","dynamic_import"]]));
+throw g;})]);a=f.deserialize(e);c&&c.end();return a}async lHl(a,b){const c=b&&b.xa&&this.da&&this.da.startSpan("asyncverifystoredpaymentoption.http_client",b.xa);b=__c.Kb(__c.Ib([V0c,"verify-stored-payment-option-async"]));const d={rd:c&&{xa:c},Fa:"asyncverifystoredpaymentoption"},[e,{gqc:f}]=await Promise.all([this.ra.post(b,__c.P0c.serialize(a),d).catch(g=>{c&&c.end("error",new Map([["error_type","http_request"]]));throw g;}),__webpack_require__.me(181863).then(()=>({gqc:__c.W0c})).catch(g=>{c&&
+c.end("error",new Map([["error_type","dynamic_import"]]));throw g;})]);a=f.deserialize(e);c&&c.end();return a}async BUh(a,b){const c=b&&b.xa&&this.da&&this.da.startSpan("getasyncstatus.http_client",b.xa);__c.pa(a.ng!=null&&/^[a-zA-Z0-9_-]{36}$/.test(a.ng));b=__c.Ib([V0c,"async","status",a.ng]);__c.Gb(b,{readConsistency:__c.N0c.serialize(a.Cxa)});a=__c.Kb(b);const [d,{e5g:e}]=await Promise.all([this.ra.get(a,{rd:c&&{xa:c},Fa:"getasyncstatus"}).catch(f=>{c&&c.end("error",new Map([["error_type","http_request"]]));
+throw f;}),__webpack_require__.me(181863).then(()=>({e5g:__c.X0c})).catch(f=>{c&&c.end("error",new Map([["error_type","dynamic_import"]]));throw f;})]);a=e.deserialize(d);c&&c.end();return a}async mRj(a){const b=__c.Kb(__c.Ib([V0c,"clienttoken"])),[c,{wUl:d}]=await Promise.all([this.ra.post(b,__c.U0c.serialize(a),{rd:void 0,Fa:"createbraintreeclienttoken"}).catch(e=>{throw e;}),__webpack_require__.me(181863).then(()=>({wUl:__c.Y0c})).catch(e=>{throw e;})]);return d.deserialize(c)}constructor(a,b){this.ra=
+a;this.da=b&&b.qd("payment_api.http_client")}};V0c="payment";__c.iia={};__c.iia.FOf=__c.Z0c;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/13_sourcemaps/2ccd88bafcdb5ab8.js.map

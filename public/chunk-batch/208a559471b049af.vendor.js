@@ -1,0 +1,3 @@
+;// __FILE_CONTENT_FOR__:208a559471b049af.vendor.js
+"use strict";(self.webpackChunk_canva_web=self.webpackChunk_canva_web||[]).push([[495795],{291650:(n,e,c)=>{c.d(e,{I:()=>r,w:()=>t});var u=c(226260),t=new u.c((function(n){return n.complete()}));function r(n){return n?function(n){return new u.c((function(e){return n.schedule((function(){return e.complete()}))}))}(n):t}}}]);
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/2_sourcemaps/208a559471b049af.vendor.js.map

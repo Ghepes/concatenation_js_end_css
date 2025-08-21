@@ -1,0 +1,3 @@
+;// __FILE_CONTENT_FOR__:0034d6deeda0bdd3.vendor.js
+"use strict";(self.webpackChunk_canva_web=self.webpackChunk_canva_web||[]).push([[520371],{317261:(e,r,t)=>{t.d(r,{G:()=>n});var n=function(){function e(){return Error.call(this),this.message="no elements in sequence",this.name="EmptyError",this}return e.prototype=Object.create(Error.prototype),e}()}}]);
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/2_sourcemaps/0034d6deeda0bdd3.vendor.js.map
