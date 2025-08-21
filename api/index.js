@@ -4,6 +4,9 @@ const path = require('path');
 const crypto = require('crypto');
 const app = express();
 
+// Define the directories where files will be searched for, in order of priority.
+const SEARCH_DIRECTORIES = ['public', 'chunk-batch'];
+
 app.use('/', (req, res) => {
   try {
     const requestedPath = decodeURIComponent(req.path);
@@ -33,19 +36,28 @@ app.use('/', (req, res) => {
 
     let output = '';
     const missingFiles = [];
+    const projectRoot = process.cwd();
 
     for (const file of files) {
-      const projectRoot = process.cwd();
-      const filePath = path.join(projectRoot, 'public', file);
+      let filePath = null;
+      let fileFound = false;
 
-      console.log(`Attempting to read file from: ${filePath}`);
+      // Loop through the defined search directories to find the file
+      for (const dir of SEARCH_DIRECTORIES) {
+        const currentPath = path.join(projectRoot, dir, file);
+        console.log(`Attempting to read file from: ${currentPath}`);
+        if (fs.existsSync(currentPath)) {
+          filePath = currentPath;
+          fileFound = true;
+          break; // Exit the loop once the file is found
+        }
+      }
 
-      if (fs.existsSync(filePath)) {
-        console.log(`SUCCESS: Found file ${file}`);
+      if (fileFound) {
+        console.log(`SUCCESS: Found file at ${filePath}`);
         const fileHash = crypto.createHash('md5').update(file).digest('hex').substring(0, 16);
 
-        // --- MODIFICARE AICI ---
-        // Construim separatorul corect în funcție de tipul fișierului
+        // Construct the correct separator based on the file type
         if (fileExtension === '.js') {
           output += `;// __FILE_CONTENT_FOR__:${fileHash}${fileExtension}\n`;
         } else if (fileExtension === '.css') {
@@ -54,7 +66,7 @@ app.use('/', (req, res) => {
         
         output += fs.readFileSync(filePath, 'utf8').trim() + '\n\n';
       } else {
-        console.error(`ERROR: File not found at ${filePath}`);
+        console.error(`ERROR: File not found in any search directory: ${file}`);
         missingFiles.push(file);
       }
     }
