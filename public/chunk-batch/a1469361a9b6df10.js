@@ -1,0 +1,13 @@
+;// __FILE_CONTENT_FOR__:a1469361a9b6df10.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[980191],{
+
+/***/ 406426:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(424074);__web_req__(400665);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Ib=__c.Ib;var Kb=__c.Kb;var pa=__c.pa;var Owj=__c.H(()=>({Pa:__c.L(1),extension:__c.M(2)}));var Pwj=__c.H(()=>({Pa:__c.L(1),clientId:__c.L(2),version:__c.M(3)}));var Qwj;
+__c.Xwj=class{async vkb(a){pa(a.Pa!=null&&/^[a-zA-Z0-9_-]{11}$/.test(a.Pa));const b=Kb(Ib([Qwj,a.Pa,"clients"])),[c,{IUl:d}]=await Promise.all([this.ra.post(b,__c.Lwj.serialize(a.body),{Fa:"createclientapi"}),__webpack_require__.me(834613).then(()=>({IUl:__c.Rwj}))]);return d.deserialize(c)}async VVj(a){pa(a.Pa!=null&&/^[a-zA-Z0-9_-]{11}$/.test(a.Pa));pa(a.clientId!=null&&/^[a-zA-Z0-9_-]+$/.test(a.clientId));const b=Kb(Ib([Qwj,a.Pa,"clients",a.clientId,"delete"])),[c,{lYl:d}]=await Promise.all([this.ra.post(b,__c.Jwj.serialize(a.body),
+{Fa:"deleteclientapiv2"}),__webpack_require__.me(834613).then(()=>({lYl:__c.Swj}))]);return d.deserialize(c)}async lhk(a){pa(a.Pa!=null&&/^[a-zA-Z0-9_-]{11}$/.test(a.Pa));const b=Kb(Ib([Qwj,a.Pa,"pagehashes"])),[c,{Jbm:d}]=await Promise.all([this.ra.post(b,Owj.serialize(a.body),{Fa:"getpagehashesapi"}),__webpack_require__.me(834613).then(()=>({Jbm:__c.Twj}))]);return d.deserialize(c)}async DNi(a){pa(a.Pa!=null&&/^[a-zA-Z0-9_-]{11}$/.test(a.Pa));const b=Kb(Ib([Qwj,a.Pa,"source"])),[c,{ivm:d}]=await Promise.all([this.ra.post(b,
+Pwj.serialize(a.body),{Fa:"savedocumentapi"}),__webpack_require__.me(834613).then(()=>({ivm:__c.Uwj}))]);return d.deserialize(c)}async o$k(a){pa(a.Pa!=null&&/^[a-zA-Z0-9_-]{11}$/.test(a.Pa));const b=Kb(Ib([Qwj,a.Pa,"source","state"])),[c,{jvm:d}]=await Promise.all([this.ra.post(b,__c.Mwj.serialize(a.body),{Fa:"savedocumentapiv2"}),__webpack_require__.me(834613).then(()=>({jvm:__c.Vwj}))]);return d.deserialize(c)}async bDl(a){pa(a.Pa!=null&&/^[a-zA-Z0-9_-]{11}$/.test(a.Pa));const b=Kb(Ib([Qwj,a.Pa,
+"source","title"])),[c,{PCm:d}]=await Promise.all([this.ra.post(b,__c.Nwj.serialize(a.body),{Fa:"updatedocumenttitleapi"}),__webpack_require__.me(834613).then(()=>({PCm:__c.Wwj}))]);return d.deserialize(c)}constructor(a){this.ra=a}};Qwj="ripple";__c.xga={};__c.xga.Vfm=__c.Xwj;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/12_sourcemaps/a1469361a9b6df10.js.map

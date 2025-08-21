@@ -1,0 +1,11 @@
+;// __FILE_CONTENT_FOR__:87521cdff7ef7d36.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[558607],{
+
+/***/ 239691:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {__c.Iil={eventType:"resource_uploaded",Ra(a){return __c.Db({source:a.source,component:a.component,control_context:a.fg,filenames:a.Zag,file_extensions:a.wQn,mime_types:a.mimeTypes,file_size:a.fileSize,storage_type:a.wD,resource_quantity:a.GKc,offline_timestamp:a.Yjc,upload_id:a.j5,design_id:a.designId,doctype_id:a.Wa,category_id:a.Ta,upload_succeeded:a.SNa,failure_reason:a.Xr,folder:a.na,folder_id:a.mb,marketplace_page_id:a.i2b,marketplace_session_id:a.gaa,is_item_in_folder_upload:a.vE})}};
+__c.Jil={eventType:"upload_finished",Ra(a){var b;return __c.Db({source:a.source,component:a.component,control_context:a.fg,upload_succeeded:a.SNa,time_elapsed_ms:a.h9a,mime_types_failed_to_upload:a.HDo,mime_types_uploaded:a.yIk,bytes_failed_to_upload:a.rWq,bytes_uploaded:a.sWq,file_upload_contexts:(b=a.$Ph)===null||b===void 0?void 0:b.map(c=>__c.Db({upload_succeeded:c.SNa,upload_type:c.uploadType,mime_type:c.mimeType,file_size:c.fileSize,width:c.width,height:c.height,duration:c.duration,time_elapsed_ms:c.h9a,
+initialization_duration_ms:c.B6h,file_upload_duration_ms:c.aQh,import_duration_ms:c.b5h,resource_ids:c.Eaa,failure_reasons:c.uOh,uploaded_chunk_sizes_bytes:c.PJf,chunk_upload_failure_reasons:c.BSe,is_item_in_folder_upload:c.vE})),offline_timestamp:a.Yjc,upload_id:a.j5,design_id:a.designId,doctype_id:a.Wa,category_id:a.Ta,resource_ids:a.Eaa,folder:a.na,folder_id:a.mb,marketplace_page_id:a.i2b,marketplace_session_id:a.gaa})}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/10_sourcemaps/87521cdff7ef7d36.js.map
