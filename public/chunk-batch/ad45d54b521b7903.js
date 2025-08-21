@@ -1,0 +1,12 @@
+;// __FILE_CONTENT_FOR__:ad45d54b521b7903.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[676950],{
+
+/***/ 85091:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(850955);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var bWi=__webpack_require__(613444).jsx;var cWi=__webpack_require__,dWi=cWi(208463),eWi=cWi.n_x(dWi)();var fWi=__webpack_require__(366533),gWi=fWi.Component,hWi=fWi.memo;var iWi=__webpack_require__(277049)._;var jWi=__webpack_require__(400770).computed;var kWi=__webpack_require__(269018)._;var lWi,mWi,nWi,oWi;oWi=hWi(({children:a,className:b,width:c,height:d})=>bWi("div",{className:b,style:{width:c,height:d},children:a}));
+new (lWi=class extends iWi{constructor(){super(__c.pWi);mWi()}},(()=>{class a extends(nWi=gWi){static G(b){__c.Q(b,{mPb:jWi,scale:jWi,HWb:jWi,GIc:jWi,yVc:jWi})}get mPb(){return this.props.HWb==null?{width:400,height:300}:{width:this.props.HWb.width,height:this.props.HWb.height}}get scale(){const b=this.props.Pj;return b==null||b.value==null?1:b.value/(b.direction==="width"?this.mPb.width:this.mPb.height)}get HWb(){return{width:this.mPb.width*this.scale,height:this.mPb.height*this.scale}}get GIc(){const b=
+this.props.GIc;return{width:b.width*this.scale,height:b.height*this.scale}}get yVc(){const b=this.props.GIc.Yh;if(b!=null)return{Sp:qWi(b.Sp),Wv:qWi(b.Wv),Ey:qWi(b.Ey),BD:qWi(b.BD)}}render(){const {Vfd:b=oWi,Overlay:c,flip:d=!1}=this.props;return bWi(b,{className:eWi("AN7ZxA",{QedALA:d}),height:this.HWb.height,width:this.HWb.width,children:bWi("div",{className:this.yVc?"_2aAdg":"StRNEQ",children:this.yVc?bWi(__c.aWi,{Cg:this.HWb.width,rj:this.HWb.height,AXj:this.GIc.width,oXj:this.GIc.height,yVc:this.yVc,
+children:bWi(c,{className:eWi("h2EMkQ",{QedALA:d}),...this.GIc})}):bWi(c,{className:eWi("alxWXw",{QedALA:d})})})})}constructor(...b){super(...b);a.G(this)}}({c:[__c.pWi,mWi]}=kWi(a,[],[__c.Mf],nWi))})(),lWi);var qWi=({top:a,left:b})=>({x:b,y:a});
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/11_sourcemaps/ad45d54b521b7903.js.map

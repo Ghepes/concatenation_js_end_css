@@ -1,0 +1,3 @@
+;// __FILE_CONTENT_FOR__:e0d8191931926289.vendor.js
+"use strict";(self.webpackChunk_canva_web=self.webpackChunk_canva_web||[]).push([[254241],{198571:(n,t,e)=>{e.d(t,{J:()=>u});var r=e(998083),i=e(335679);function u(){return function(n){return n.lift(new s)}}var s=function(){function n(){}return n.prototype.call=function(n,t){return t.subscribe(new a(n))},n}(),a=function(n){function t(t){var e=n.call(this,t)||this;return e.hasPrev=!1,e}return r.C6(t,n),t.prototype._next=function(n){var t;this.hasPrev?t=[this.prev,n]:this.hasPrev=!0,this.prev=n,t&&this.destination.next(t)},t}(i.v)}}]);
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/2_sourcemaps/e0d8191931926289.vendor.js.map

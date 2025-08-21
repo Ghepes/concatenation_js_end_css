@@ -1,0 +1,13 @@
+;// __FILE_CONTENT_FOR__:1f57a0ac803d2af7.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[412251],{
+
+/***/ 666044:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {__c.y_k=function({ECj:a,children:b,...c}){const [d]=v_k(()=>new w_k({props:c}));d.yvp(c);x_k(()=>{if(a)return document.addEventListener("touchstart",d.onTouchStart),document.addEventListener("touchend",d.onTouchEnd),document.addEventListener("touchcancel",d.onTouchCancel),document.addEventListener("touchmove",d.onTouchMove),()=>{document.removeEventListener("touchstart",d.onTouchStart);document.removeEventListener("touchend",d.onTouchEnd);document.removeEventListener("touchcancel",d.onTouchCancel);
+document.removeEventListener("touchmove",d.onTouchMove)}},[a,d]);return b({onTouchStart:d.onTouchStart,onTouchMove:d.onTouchMove,onTouchEnd:d.onTouchEnd,onTouchCancel:d.onTouchCancel})};__c.z_k=__webpack_require__(613444).jsx;var A_k=__webpack_require__(366533),x_k=A_k.useEffect,v_k=A_k.useState;var w_k;__c.B_k=a=>__c.z_k(__c.y_k,{...a,ECj:!1,children:a.children});
+w_k=class{constructor({props:a}){this.Opg=this.Bkg=this.Npg=this.Akg=void 0;this.yvp=b=>{this.props=b};this.onTouchStart=b=>{b.touches.length===1&&(this.Akg=(b=b.touches[0])?b.clientX:0,this.Bkg=b?b.clientY:0)};this.onTouchMove=b=>{if(b.touches.length===1){this.Npg=(b=b.touches[0])?b.clientX:0;this.Opg=b?b.clientY:0;var {EEf:c=2,Zwi:d,$wi:e,QNr:f,PNr:g}=this.props;this.hHk({threshold:0,EEf:c,left:d,right:e,up:f,q_j:g})}};this.onTouchEnd=()=>{const {threshold:b=100,EEf:c=2,Xwi:d,Ywi:e,Bpe:f,u6c:g,
+ONr:h}=this.props;this.hHk({threshold:b,EEf:c,left:d,right:e,up:f,q_j:g,cancel:h});this.reset()};this.onTouchCancel=()=>{this.reset()};this.hHk=({threshold:b,EEf:c,left:d,right:e,up:f,q_j:g,cancel:h})=>{if(this.Akg!==void 0&&this.Npg!==void 0&&this.Bkg!==void 0&&this.Opg!==void 0){var k=!1,l=this.Akg-this.Npg,n=this.Bkg-this.Opg;Math.abs(n)>=c*Math.abs(l)?n>b?(f&&f(n),k=!0):-n>b&&(g&&g(-n),k=!0):Math.abs(l)>=c*Math.abs(n)&&(l>b?(d&&d(l),k=!0):-l>b&&(e&&e(-l),k=!0));!k&&h&&h()}};this.reset=()=>{this.Opg=
+this.Bkg=this.Npg=this.Akg=void 0};this.props=a}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/12_sourcemaps/1f57a0ac803d2af7.js.map
