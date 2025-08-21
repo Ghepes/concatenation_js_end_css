@@ -1,0 +1,12 @@
+;// __FILE_CONTENT_FOR__:01d73f78caaa53c9.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[869197],{
+
+/***/ 535438:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(795677);__web_req__(833158);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var b1k=function({AZg:a,background:b=!1,autoplay:c=!1,eI:d=!1,loop:e=!1,wTq:f=!1,qMb:g=!1}){a=new URL(`${"https://player.vimeo.com"}/video/${a}`);a.searchParams.append("background",String(b));a.searchParams.append("autoplay",String(c));a.searchParams.append("muted",String(d));a.searchParams.append("loop",String(e));a.searchParams.append("autopause",String(f));a.searchParams.append("dnt","true");a.searchParams.append("controls",String(!g));return a.toString()},c1k=__webpack_require__(613444).jsx;var d1k=__webpack_require__(366533),e1k=d1k.forwardRef,f1k=d1k.useEffect,g1k=d1k.useRef,h1k=d1k.useState;var i1k;
+__c.j1k=(0,d1k.memo)(({play:a,aspectRatio:b,title:c=__c.V("7hydPA"),...d})=>{const e=g1k(null),[f,g]=h1k(!1);d=b1k(d);f1k(()=>{var k,l;f&&a!=null&&((l=e.current)===null||l===void 0||(k=l.contentWindow)===null||k===void 0||k.postMessage({method:a?"play":"pause"},"https://player.vimeo.com"))},[a,f]);const h=g1k(a);h.current=a;f1k(()=>{var k;const l=n=>{var p;if(n.origin.startsWith("https://player.vimeo.com")&&((p=e.current)===null||p===void 0?void 0:p.contentWindow)===n.source&&(typeof n.data==="string"?
+JSON.parse(n.data):n.data).event==="ready"){var q,r;g(!0);h.current==null||(r=e.current)!==null&&r!==void 0&&(q=r.contentWindow)!==null&&q!==void 0&&q.postMessage({method:h.current?"play":"pause"},"https://player.vimeo.com")}};(k=window)===null||k===void 0||k.addEventListener("message",l);return()=>{var n;(n=window)===null||n===void 0||n.removeEventListener("message",l)}},[]);c=c1k(i1k,{src:d,title:c,ref:e});return(b=b&&__c.a1k.get(b))?c1k(__c.es,{ratio:b,children:c}):c});
+i1k=e1k(({src:a,title:b},c)=>c1k("iframe",{src:a,ref:c,className:"Nt7f9A",frameBorder:0,title:b}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/11_sourcemaps/01d73f78caaa53c9.js.map
