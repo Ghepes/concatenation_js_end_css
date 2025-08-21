@@ -1,0 +1,3 @@
+;// __FILE_CONTENT_FOR__:d87c7b9b1c1e6848.vendor.js
+"use strict";(self.webpackChunk_canva_web=self.webpackChunk_canva_web||[]).push([[448125],{943474:(e,n,r)=>{r.d(n,{O:()=>b});var u=r(226260),c=r(949359),i=r(71001),s=r(453535);function b(e,n,r){void 0===e&&(e=0);var b=-1;return(0,i.k)(n)?b=Number(n)<1?1:Number(n):(0,s.m)(n)&&(r=n),(0,s.m)(r)||(r=c.b),new u.c((function(n){var u=(0,i.k)(e)?e:+e-r.now();return r.schedule(t,u,{index:0,period:b,subscriber:n})}))}function t(e){var n=e.index,r=e.period,u=e.subscriber;if(u.next(n),!u.closed){if(-1===r)return u.complete();e.index=n+1,this.schedule(e,r)}}}}]);
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/2_sourcemaps/d87c7b9b1c1e6848.vendor.js.map

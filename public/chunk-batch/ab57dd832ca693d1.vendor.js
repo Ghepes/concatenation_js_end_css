@@ -1,0 +1,3 @@
+;// __FILE_CONTENT_FOR__:ab57dd832ca693d1.vendor.js
+"use strict";(self.webpackChunk_canva_web=self.webpackChunk_canva_web||[]).push([[540775],{936791:(e,r,t)=>{t.d(r,{k:()=>n});var n=function(){function e(){return Error.call(this),this.message="argument out of range",this.name="ArgumentOutOfRangeError",this}return e.prototype=Object.create(Error.prototype),e}()}}]);
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/2_sourcemaps/ab57dd832ca693d1.vendor.js.map
