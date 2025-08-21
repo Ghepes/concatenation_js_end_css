@@ -1,0 +1,14 @@
+;// __FILE_CONTENT_FOR__:3573e84f2179ae0a.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[293906],{
+
+/***/ 75799:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(383449);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Pb=__c.Pb;__c.qu=function(a){return a!=null&&a.Kb!=null};__c.f7d=function(a){return a.status===1};__c.ru=function(a){return a.status===5};__c.su=function(a){return a.mf.type==="PREPAID"};__c.tu=function(a){return a.mf.type==="RECURRING"};__c.g7d=function(a){return a.mf.Ma===Pb.zd};__c.j8d=function(a){return a.mf.Ma===Pb.Wd};__c.uu=function(a){return a.xc===__c.Ob.Kn};__c.k8d=function(a){return!__c.uu(a)};__c.vu=function(a){return a.status===2};
+__c.wu=function(a){return a.DK.type==="FEATURE_BUNDLE"||a.DK.type==="SKU"};__c.l8d=function(a){return a.DK.type==="DOMAIN"};__c.yu=function(a){return a.status===3};__c.zu=function(a){return a.status===1||a.status===5};__c.Au=function(a){return a.status===1||a.status===5||a.status===3};__c.Bu=function(a){return a.Xp===1};__c.Cu=function(a){return a.Kb.Yw};__c.m8d=function(a){return!__c.Cu(a)};__c.Du=function(a){return a.IS.type==="BRAND"||a.IS.type==="BRAND_USER"};
+__c.n8d=function(a){return a.Kb.gSa||a.Kb.vwa};__c.Fu=function(...a){return b=>a.includes(__c.Eu(b))};
+__c.Gu=function(a,b){var c,d;const e=((c=b.hb)!==null&&c!==void 0?c:1)/((d=a.hb)!==null&&d!==void 0?d:1);switch(a.Ma){case Pb.sg:switch(b.Ma){case Pb.sg:return e;case Pb.zd:return e*30;case Pb.Wd:return e*365;default:throw new __c.t(b.Ma);}case Pb.zd:switch(b.Ma){case Pb.sg:return e/30;case Pb.zd:return e;case Pb.Wd:return e*12;default:throw new __c.t(b.Ma);}case Pb.Wd:switch(b.Ma){case Pb.sg:return e/365;case Pb.zd:return e/12;case Pb.Wd:return e;default:throw new __c.t(b.Ma);}default:throw new __c.t(a.Ma);
+}};__c.Eu=function({Kb:a}){__c.pa(__c.o8d(a)||a.ez.type==="SKU","Only `FeatureBundlePlanProductConfig` and `SkuPlanProductConfig` are supported.");__c.pa(a.ez.vc!=null,"SkuPlanProductConfig.featureBundle has not been populated");return a.ez.vc};__c.p8d=function({Kb:a}){__c.pa(a.ez.type==="SKU","Only `SkuPlanProductConfig` are supported.");return a.ez.Ii};__c.o8d=function(a){return a.ez.type==="FEATURE_BUNDLE"};__c.q8d=function(a){return a.ez.type==="SKU"&&a.ez.Ii.startsWith("affinity")};
+__c.r8d=function(a){return __c.o8d(a)||a.ez.type==="SKU"};__c.s8d=function(a){return a.cEa!=null&&a.cEa.Jsa!=null&&!!a.cEa.zxk};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/13_sourcemaps/3573e84f2179ae0a.js.map
