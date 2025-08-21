@@ -1,0 +1,10 @@
+;// __FILE_CONTENT_FOR__:3df8da0fa70b57e7.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[368240],{
+
+/***/ 520889:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(649840);__web_req__(215391);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var oMi,pMi;__c.jMi=function(a){switch(a){case 0:return"JpxrOQ";case 8:return"w4MgKQ";case 9:return"lUO5VA";case 1:return"_1OId9w";case 2:return"hMvt_w";case 3:return"_6cTMcg";case 4:return"B3VKuA";case 5:return"Axscsg";case 6:return"GZB4IQ";case 7:return"_9eknWA";case 10:return"wxFs1w";case 11:return"SsIjqQ";case 14:return"neFC9w";case 12:return"T9gXjg";case 13:return"lt6WQA";case 15:return"hfo__w";default:throw new __c.t(a);}};
+__c.kMi=function(a){switch(a){case 1:return 1;case 2:return 2;case 3:return 3;case 4:return 4;case 5:return 5;case 6:return 6;case 7:return 7;default:return 10}};__c.lMi=function(a){switch(a){case 3:return 4;case 4:return 1;case 5:return 2;case 6:case 7:return 5;case 9:return 6;case 10:return 7;case 11:return 3;case 12:return 9;case 13:return 8;case 14:return 15;default:return 10}};oMi=function(){mMi||(mMi=__webpack_require__.me(900055).then(()=>__c.nMi).then(({BZn:a})=>a));return mMi};pMi=__webpack_require__(613444).jsx;var qMi=__webpack_require__,rMi=qMi(208463),sMi=qMi.n_x(rMi)();var tMi=__webpack_require__(366533),uMi=tMi.useEffect,vMi=tMi.useState;var wMi={baseUnit:"8px",quickCreateIconPrimaryColor:"var(--BHhDiQ)",icon:"FUV4Lw",tiny:"ieASaw",small:"mk9GYQ",medium:"b8O41Q",large:"YdeeiA"};var mMi;__c.xMi=({nuc:a,group:b,color:c="inheritColor",size:d="large",Gb:e="2colors"})=>{const [f,g]=vMi();uMi(()=>{oMi().then(h=>h({ue:a,group:b,Gb:e,Jza:void 0})).then(h=>{g(h)})},[e,a,b]);return pMi("div",{className:sMi("FUV4Lw",c!=="inheritColor"&&__c.jMi(c),wMi[d]),dangerouslySetInnerHTML:f?{__html:f}:void 0})};mMi=null;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/9_sourcemaps/3df8da0fa70b57e7.js.map

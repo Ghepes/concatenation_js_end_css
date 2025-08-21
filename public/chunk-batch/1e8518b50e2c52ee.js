@@ -1,0 +1,11 @@
+;// __FILE_CONTENT_FOR__:1e8518b50e2c52ee.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[924816],{
+
+/***/ 384282:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var mdj,ndj,odj,pdj;__c.aE=function({ny:a,da:b}){function c(e,f,g,h,k,l){const n=g.Va;__c.qa(a.Dih(n),`Unknown item type passed to 'openDetails': ${g.Va}`);return d.Xsa(e,f,n,g,h,k,l)}const d=new kdj(b);return{ova:()=>new __c.ldj,X5:d,Zm:function(e,f,g,h,k,l){var n;return e.isOpen&&((n=e.Rfa)===null||n===void 0?void 0:n.item)===g?d.mC(e):c(e,f,g,h,k,l)},Xsa:c}};mdj=__webpack_require__(400770);ndj=mdj.action;odj=mdj.computed;pdj=mdj.observable;var kdj;
+kdj=class{static G(a){__c.Q(a,{Xsa:ndj.bound,mC:ndj.bound})}Xsa(a,b,c,d,e="left_click",f,g){this.Hc(e);a.e8c=b;a.Rfa={item:d,type:c};a.correlationId=g!==null&&g!==void 0?g:__c.Wa();a.fg=e;a.EJd=f}mC(a){if(!a.cpk){a.e8c=void 0;a.Rfa=void 0;a.correlationId=void 0;a.EJd=void 0;var b;((b=this.span)===null||b===void 0?0:b.isRecording())&&this.span.end()}}Hc(a){var b,c,d,e;((b=this.span)===null||b===void 0?0:b.isRecording())&&this.span.abort();this.span=(c=this.da)===null||c===void 0?void 0:c.Ec("open_details_menu",{Hc:{name:"details_menu.open_details_menu"}});
+(e=this.span)===null||e===void 0||(d=e.Ue())===null||d===void 0||d.k7(a)}constructor(a){this.da=a;this.span=(kdj.G(this),void 0)}};__c.ldj=class{static G(a){__c.Q(a,{Rfa:pdj.ref,e8c:pdj.ref,EJd:pdj.deep,isOpen:odj,TD:odj})}get isOpen(){return!!this.Rfa}get TD(){var a;return(a=this.Rfa)===null||a===void 0?void 0:a.item}constructor(){this.Rfa=(__c.ldj.G(this),void 0);this.correlationId=void 0;this.fg="left_click";this.cpk=!1}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/10_sourcemaps/1e8518b50e2c52ee.js.map

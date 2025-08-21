@@ -1,0 +1,11 @@
+;// __FILE_CONTENT_FOR__:b0764c3db32fed0a.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[373730],{
+
+/***/ 808945:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var DRd;__c.CRd=function(a,b){var c;if(c=a)c=a.getAttribute&&a.tagName?a.getAttribute("tabindex")!=null||ARd.includes(a.tagName.toLowerCase())||BRd.includes(a.getAttribute("role")||""):!1;if(c)return a;if(a!==b&&(a===null||a===void 0?0:a.parentNode))return __c.CRd(a.parentNode,b)};DRd=__webpack_require__(613444).jsx;var ERd=__webpack_require__(366533),FRd=ERd.useCallback,GRd=ERd.useRef;var BRd,ARd,LRd;BRd="button dialog modal input textarea link combobox a tab".split(" ");ARd="tab button input textarea select option a".split(" ");__c.HRd={eventType:"contextmenu",OMe:"element",attribute:"disablecontextmenuforelement"};__c.IRd={eventType:"contextmenu",OMe:"controls",attribute:"disablecontextmenuforcontols"};__c.JRd={eventType:"mousedown",OMe:"element",attribute:"notmarqueeselectable"};__c.KRd={eventType:"mousedown",OMe:"controls",attribute:"notmarqueeselectableinnercontrols"};
+__c.bt=({children:a,className:b})=>DRd(LRd,{className:b,o7j:[__c.JRd,__c.HRd],children:a});__c.MRd=({children:a,className:b})=>DRd(LRd,{className:b,o7j:[__c.KRd,__c.IRd],children:a});
+LRd=({children:a,o7j:b,className:c})=>{const d=GRd(null),e=FRd(f=>{d.current=f;if(b===null||b===void 0?0:b.length)for(const g of b)f===null||f===void 0||f.addEventListener(g.eventType,h=>{h=h.target;h instanceof Element&&(g.OMe==="element"&&h.setAttribute(g.attribute,""),g.OMe==="controls"&&(h=__c.CRd(h,f))&&h.setAttribute(g.attribute,""))})},[b]);return DRd("div",{ref:e,className:c,children:a})};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/10_sourcemaps/b0764c3db32fed0a.js.map

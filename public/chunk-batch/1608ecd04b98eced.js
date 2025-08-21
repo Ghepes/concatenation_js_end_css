@@ -1,0 +1,11 @@
+;// __FILE_CONTENT_FOR__:1608ecd04b98eced.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[858758],{
+
+/***/ 808787:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(763683);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Blr=function(a){if(a.type==="react-router")return a.to;var b;return(b=a.url)!==null&&b!==void 0?b:""},Clr=__webpack_require__(400770).computed;var Dlr,Elr,Flr,Glr;Dlr=class{constructor(a){this.Jmf=a.Jmf;this.Kmf=a.Kmf;this.oaa=a.oaa;this.sPb=a.sPb}};Elr=new Dlr({Jmf:void 0,Kmf:void 0,oaa:void 0,sPb:void 0});Flr=class{GZn(){return Clr(()=>{var a,b,c;return(c=(a=(b=this.MRf).Jmf)===null||a===void 0?void 0:a.call(b).get())!==null&&c!==void 0?c:__c.ylr})}iXh(){var a,b;return(a=(b=this.MRf).Kmf)===null||a===void 0?void 0:a.call(b)}destroy(){var a,b;(a=(b=this.MRf).oaa)===null||a===void 0||a.call(b)}constructor(){this.MRf=Elr}};
+Glr=class{constructor(a,b,c,d){this.Ga=a;this.I9=b;this.lho=c;this.cE=d;this.zug=({id:e,type:f,...g})=>{var h;this.lho.MRf=new Dlr(g);if(!__c.Xa("15648c00",!1))return this.VJk(e,f);this.I9.TQg("asset-previewer_in",()=>this.VJk(e,f),500,{data:{id:e}});this.I9.gSc?this.I9.gSc.then(()=>{var k;(k=this.cE)===null||k===void 0||k.QD()}):(h=this.cE)===null||h===void 0||h.QD()};this.Mwd=(e,f)=>{switch(f){case "M":return e=this.Ga.FXh({id:e}),Blr(e);case "V":return e=this.Ga.YXh({id:e}),Blr(e);default:throw Error(`Unsupported asset previewer item type: ${f}`);
+}};this.VJk=(e,f)=>{switch(f){case "M":return this.Ga.uKk({id:e});case "V":return this.Ga.MKk({id:e});default:throw Error(`Unsupported asset previewer item type: ${f}`);}}}};__c.vca={f8m:function({Ga:a,I9:b,cE:c}){const d=new Flr;return{Qsc:new Glr(a,b,d,c),Iwn:d}}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/10_sourcemaps/1608ecd04b98eced.js.map

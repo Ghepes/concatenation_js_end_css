@@ -1,0 +1,12 @@
+;// __FILE_CONTENT_FOR__:2fc8250f0a17a396.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[170103],{
+
+/***/ 12243:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(763539);__web_req__(794812);__web_req__(345381);__web_req__(560577);__web_req__(747195);__web_req__(389236);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Rwd=__c.Rwd;var wwd=__c.wwd;var Vwd;Vwd=async function(a,b){await a.ssb.mbf(new __c.Fwd({video:b.video}));const c=new wwd({type:2,id:b.video.id});a=await a.ssb.iia(new __c.ywd({id:c}));return a.video?{video:Rwd(a.video),HUa:b.HUa,ome:b.ome}:b};
+__c.Wwd=class{async XWb(a,b){if(a.type==="DEVICE"){var c=new wwd({type:1,id:a.sourceId});c=new __c.ywd({id:c});c=await this.ssb.iia(c);if(c.video)return{video:Rwd(c.video)}}b=await this.Jpc.XWb(a,b);return a.type!=="DEVICE"?b:Vwd(this,b)}async Ylb(a){if(a.type!=="IDS"||!this.ssb.tZc)return this.Jpc.Ylb(a);var b=a.Re.map(e=>new wwd({type:2,id:e}));b=new __c.Iwd({Re:b});const c=await this.ssb.tZc(b),d=a.Re.filter(e=>!c.$c.find(f=>f.id===e));b=c.$c.map(Rwd);if(d.length===0)return new __c.Kwd({$c:b});
+a=new __c.Uwd({...a,Re:d});a=await this.Jpc.Ylb(a);return new __c.Kwd({...a,$c:b.concat(a.$c)})}async iia(a,b){var c=new wwd({type:2,id:a.id});c=new __c.ywd({id:c});c=await this.ssb.iia(c);return c.video?(a=Rwd(c.video),new __c.Mwd({video:a})):this.Jpc.iia(a,b)}async R_b(a){var b=a.Re.map(c=>new wwd({type:2,id:c}));b=new __c.xwd({Re:b});b=await this.ssb.R_b(b);return b.$c.length===a.Re.length?(a=b.$c.map(c=>Rwd(c)),new __c.Lwd({$c:a})):this.Jpc.R_b(a)}async NFa(a,b){if(this.ssb.NFa){const c=new __c.Gwd({remoteId:a.id});
+await this.ssb.NFa(c)}return this.Jpc.NFa(a,b)}async cVd(a){return this.Jpc.cVd(a)}async zJf(a){return this.Jpc.zJf(a)}K3f(a){return this.Jpc.K3f(a)}fyd(a){return this.Jpc.fyd(a)}constructor(a,b){this.Jpc=a;this.ssb=b}};__c.Xwd={};__c.Xwd.GXl=__c.Wwd;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/11_sourcemaps/2fc8250f0a17a396.js.map

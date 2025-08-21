@@ -1,0 +1,13 @@
+;// __FILE_CONTENT_FOR__:3cb883317fdbd684.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[672952],{
+
+/***/ 103080:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var QEl=function(a){const b=a.eua+1;return b>=a.items.length?0:b},REl=__webpack_require__(400770),SEl=REl.action,TEl=REl.observable;__c.UEl=class{static G(a){__c.Q(a,{Pie:TEl.ref,pOh:TEl.ref})}constructor(a){this.Trb=a;this.Pie=(__c.UEl.G(this),!1);this.pOh=this.Lf=!1}};
+__c.VEl=class{static G(a){__c.Q(a,{$si:SEl,start:SEl,drl:SEl,Nak:SEl,stop:SEl,pause:SEl})}$si(a){a.pOh=!0}hVh(a){return this.QTd.hVh(a.Trb)}wYn(a){return a.eua}start(a){if(!a.Lf){a.Lf=!0;try{this.QTd.start(a.Trb)}catch(b){this.$si(a)}}}drl(a){a.Pie=a.Trb.eua>0;this.QTd.reset(a.Trb)}Nak(a){a.Trb.wRe=!0;a.Pie=!1}stop(a){this.QTd.stop(a.Trb);a.Lf=!1;a.Pie||(this.drl(a),a.Pie&&(a.Trb.wRe=!1,window.setTimeout(()=>this.Nak(a),this.rBe)))}pause(a){this.QTd.stop(a.Trb);a.Lf=!1}get animationDuration(){return this.QTd.animationDuration}get rBe(){return this.QTd.rBe}constructor(a){this.QTd=
+a;__c.VEl.G(this)}};__c.WEl=class{static G(a){__c.Q(a,{items:TEl.ref,eua:TEl.ref,Prf:TEl.shallow})}constructor(a,b,c){this.items=(__c.WEl.G(this),void 0);this.eua=0;this.TTd=void 0;this.wRe=!0;this.items=a;this.Prf=Array.from({length:b!==null&&b!==void 0?b:a.length});this.eua=c!==null&&c!==void 0?c:0}};
+__c.XEl=class{static G(a){__c.Q(a,{start:SEl,stop:SEl,Zxe:SEl,n0k:SEl,jwg:SEl})}start(a,b=!0){const c=a.wRe?()=>this.tick(a):()=>this.start(a);b=a.wRe?b?this.startDelay:this.rBe:100;a.wRe&&this.n0k(a,QEl(a));a.TTd=window.setTimeout(c,b)}reset(a){this.stop(a);this.Zxe(a,0)}hVh(a){return a.items[a.eua]}stop(a){window.clearTimeout(a.TTd);a.TTd=void 0}async tick(a){this.cpb&&this.cpb(a.eua);const b=QEl(a);try{a.Prf[b]&&await a.Prf[b],this.Zxe(a,QEl(a)),this.start(a,!1)}catch(c){}}Zxe(a,b){a.eua=b}n0k(a,
+b){a.Prf[b]||(a.Prf[b]=this.sMa(a.items[b]))}jwg(a,b){a.items=[...a.items,...b]}constructor({sMa:a,q3f:b,startDelay:c,animationDuration:d,cpb:e}){this.rBe=(__c.XEl.G(this),void 0);this.sMa=a;this.cpb=e;this.startDelay=c;this.animationDuration=d;this.rBe=b+d}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/12_sourcemaps/3cb883317fdbd684.js.map

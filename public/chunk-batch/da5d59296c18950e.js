@@ -1,0 +1,11 @@
+;// __FILE_CONTENT_FOR__:da5d59296c18950e.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[177443],{
+
+/***/ 997241:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(481849);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var XMc=__c.H(()=>({version:__c.L("version",1),body:__c.C("body",2,__c.WMc),inline:__c.N("inline",3),userAgent:__c.M("userAgent",4)}));var ZMc=class{async Cde(a){__c.pa(a.KD!=null&&/^[a-zA-Z0-9_-]+$/.test(a.KD));const b=__c.Ib([YMc,a.KD]);__c.Gb(b,{attachment:a.pna});a=__c.Kb(b);const [c,{eIe:d}]=await Promise.all([this.ra.get(a,{Fa:"getexport2api"}),__webpack_require__.me(248081).then(()=>({eIe:__c.QLc}))]);return d.deserialize(c)}async W5d(a){var b=__c.Ib([YMc]);__c.Gb(b,{version:__c.m(a.version),inline:__c.m(a.inline)});b=__c.Kb(b);const [c,{WGe:d}]=await Promise.all([this.ra.post(b,__c.WMc.serialize(a.body),{Fa:"createexport2api"}),
+__webpack_require__.me(248081).then(()=>({WGe:__c.PLc}))]);return d.deserialize(c)}async eeg(a){__c.pa(a.KD!=null&&/^[a-zA-Z0-9_-]+$/.test(a.KD));const b=__c.Ib([YMc,"bulk",a.KD]);__c.Gb(b,{attachment:a.pna});a=__c.Kb(b);const [c,{N$l:d}]=await Promise.all([this.ra.get(a,{Fa:"getbulkexport"}),__webpack_require__.me(118326).then(()=>({N$l:__c.OLc}))]);return d.deserialize(c)}async D0f(a){const b=__c.Kb(__c.Ib([YMc,"bulk"])),[c,{CUl:d}]=await Promise.all([this.ra.post(b,__c.TMc.serialize(a),{Fa:"createbulkexport"}),
+__webpack_require__.me(118326).then(()=>({CUl:__c.MLc}))]);return d.deserialize(c)}constructor(a){this.ra=a}},YMc="export";__c.$Mc=class{W5d(a){return this.d6.W5d(new XMc({body:a,version:"2",inline:!1}))}Cde(a){return this.d6.Cde(a)}D0f(a){return this.d6.D0f(a)}eeg(a){return this.d6.eeg(a)}constructor(a){this.d6=new ZMc(a)}};__c.Fka={};__c.Fka.tfm=__c.$Mc;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/10_sourcemaps/da5d59296c18950e.js.map

@@ -1,0 +1,13 @@
+;// __FILE_CONTENT_FOR__:6aa43de9a99756f9.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[152082],{
+
+/***/ 200615:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(580634);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var mA;__c.oei=function(a){return __c.ft(a.access)};__c.pei=function(a){return!!a.access&&a.access>=2};__c.qei=function(a){return a.access===6||a.access===3||a.access===2};__c.rei=function(a,b){return b.access===6||b.access===3||b.access===2?!0:!1};__c.sei=function(a,b,c){return a.na.brand!==b?!1:c||a.access===6||a.access===3||a.access===2};__c.tei=function(a,b,c){return a.na.brand!==b?!1:c||a.access===6};
+__c.uei=function(a,b){return a.eD?a.eD.rules.find(c=>c.kb.type==="USER_PRINCIPAL"&&c.kb.user===b&&c.access===6&&c.origin.type==="USER")!=null?!0:!1:!!a.access&&a.access===6};__c.vei=function(a){if(!a.eD)return!1;const b=a.eD.rules.filter(c=>c.kb.type==="USER_PRINCIPAL");if(b.length!==a.eD.rules.length)return!0;for(const c of b)if(c.kb.type==="USER_PRINCIPAL"&&c.kb.user!==a.ownerId)return!0;return!1};
+__c.wei=function(a,b){return!!a.eD&&a.eD.rules.some(c=>c.kb.type==="BRAND_PRINCIPAL"&&c.kb.brand===b)};__c.xei=function(a,b){return!!a.eD&&a.eD.rules.some(c=>c.kb.type==="ORG_PRINCIPAL"&&c.kb.pp===b)};__c.yei=function(a,b){return!!a.eD&&a.eD.rules.some(c=>c.kb.type==="GROUP_PRINCIPAL"&&c.kb.brand===b)};__c.zei=function(a,b){return a.access!==6&&b};__c.Aei=function(a,b){return a.eD?a.eD.rules.filter(c=>c.kb.type==="USER_PRINCIPAL"&&c.kb.brand===b&&c.access!==6).length:0};
+__c.Bei=function(a,b,c){return a.entries.some(d=>d.user===b&&d.brand===c||d.brand===c&&d.user==null&&d.role==null&&d.group==null?!0:!1)};__c.Cei=function(a,b){return b||__c.zSd(a.access)};__c.Dei=function(a,b,c,d){const e=c===a.na.brand;d=d&&__c.xei(a,d);const f=__c.wei(a,c);b=a.fc&&__c.Bei(a.fc,b,c);return e||b||!d&&!f?{type:"user",userId:a.ownerId}:{type:"brand",X:a.na.brand}};mA=__c.mA={};mA.AIj=__c.pei;mA.KWq=__c.tei;mA.LWq=__c.zei;mA.RWq=__c.sei;mA.UWq=__c.rei;mA.VWq=__c.oei;mA.XWq=__c.qei;
+mA.ZWq=function(a){return a.ync};mA.bXq=__c.Cei;mA.R1q=__c.Aei;mA.arr=__c.Dei;mA.zAr=__c.uei;mA.$uk=__c.vei;mA.Sko=__c.Bei;mA.AAr=__c.yei;mA.BAr=__c.xei;mA.CAr=__c.wei;
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/12_sourcemaps/6aa43de9a99756f9.js.map

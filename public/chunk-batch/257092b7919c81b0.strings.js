@@ -1,0 +1,10 @@
+;// __FILE_CONTENT_FOR__:257092b7919c81b0.strings.js
+(function() {
+ const messages = JSON.parse("{\"jjfIpw\":\"More actions for {0}\",\"jdLB3A\":\"Retry\",\"EdR74w\":\"<a data-anchor-id=\\\"search-more-results\\\">See more search results</a> across Canva, or <a data-anchor-id=\\\"learn-about-brand-templates\\\">learn how Brand Templates scale your brand.</a>\",\"o3MGQg\":\"Contact them to learn more, or try searching for something else.\",\"6Lo+/g\":\"Unstar\",\"S3XNoQ\":\"Customize this template\",\"KW7Ddg\":\"More to explore:\",\"W7BYSw\":\"Unstar\",\"myRAcA\":\"Star\",\"o3e+Hw\":\"Report\",\"JNW9MA\":\"Create blank\",\"3m6nAQ\":\"Toggling star failed\",\"gvAcig\":\"Customize, {0}, template\",\"y+n2rQ\":\"View\",\"sZenYQ\":\"More actions\",\"WPqR9w\":\" <a data-anchor-id=\\\"reload-page\\\" href=\\\"#\\\">Reload this page</a> or try again later.\",\"NqusTA\":\"Preview, {0}, template\",\"dTEzyw\":\"We couldn’t find anything for “{0}”.\",\"yGyyzw\":\"Create a blank {0}\",\"hE4cpQ\":\"Preview this template\",\"Xjissw\":\"We couldn’t show any results due to a technical issue on our end.\",\"QgzK3g\":\"Unstar ({0})\",\"PNBhog\":\"Starred\",\"AGKhhQ\":\"Check that a typo hasn’t snuck in, or try searching for something a little more generic.\",\"qDTX5Q\":\"These results have been restricted by your administrator.\",\"jSA/MQ\":\"Star\",\"LI5rIQ\":\"Star ({0})\",\"ratbEg\":\"Check that a typo hasn’t snuck in, or try searching for something a little more generic. If all else fails and you’re after a little inspiration, feel free to explore <a data-anchor-id=\\\"search-templates\\\">Canva’s Templates</a>.\",\"mxAIzA\":\"Translate this template\",\"TDCfcw\":\"Search Templates for {0}\",\"bCzyDw\":\"Unstarred\"}");
+ const cmsg = window["cmsg"] = window["cmsg"] || {};
+ const loaded = cmsg["loaded"] = cmsg["loaded"] || {};
+ loaded["498797_en"] = 1;
+ const strings = cmsg["strings"] = cmsg["strings"] || {};
+ strings["en"] = strings["en"] ? Object.assign(strings["en"], messages) : messages;
+})();
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/9

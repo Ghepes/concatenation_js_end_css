@@ -1,0 +1,15 @@
+;// __FILE_CONTENT_FOR__:3854950f8adbda27.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[651464],{
+
+/***/ 450229:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(562675);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var zJ;var B2l,D2l;
+__c.yJ={Oib:"design_creation_modal.open_design_creation_modal",v$g:"design_creation_modal.select_tab",K8g:"design_creation_modal.open_brand_template_grid",Zrj:"design_creation_modal.open_personal_starred_brand_template_grid",$rj:"design_creation_modal.open_team_starred_brand_template_grid",LKe:"design_creation_modal.type_in_search_bar",SNf:"design_creation_modal.drop_a_file_to_upload",Gfd:"design_creation_modal.choose_an_upload_file",Ynm:"design_creation_modal.open_custom_size",Tah:"design_creation_modal.type_in_custom_size",
+Yij:"design_creation_modal.async_load_worksuite_tabs"};
+zJ=__c.zJ={xqj:"load_tabs_start",wqj:"load_tabs_end",Y3g:"for_you_carousel_paint",K0g:"brand_templates_carousel_paint",Jjj:"brand_templates_grid_view_paint",Gsj:"personal_starred_brand_templates_carousel_paint",Nom:"personal_starred_brand_templates_grid_view_paint",Xuj:"team_starred_brand_templates_carousel_paint",rzm:"team_starred_brand_templates_grid_view_paint",R9g:"recommended_templates_section_paint",uGb:"design_specs_carousel_paint",Avj:"upload_tab_paint",u$g:"search_results_empty_search_results_paint",
+t$g:"search_results_design_specs_list_paint",ONf:"design_creation_modal_closed",RHe:"file_upload_initiated",QHe:"file_upload_delegated",y1g:"custom_size_paint",xNf:"custom_size_recent_paint",z1g:"custom_size_suggestion_paint",vwj:"worksuite_groups_loaded",nrj:"map_design_spec_groups_to_tab_data"};B2l=[zJ.K0g,zJ.Gsj,zJ.Xuj,zJ.R9g];
+__c.C2l={[3]:{type:"for_you",lC:new Set([zJ.Y3g,...B2l])},[7]:{type:"docs",lC:new Set([...B2l,zJ.uGb])},[16]:{type:"whiteboards",lC:new Set([...B2l,zJ.uGb])},[9]:{type:"presentations",lC:new Set([...B2l,zJ.uGb])},[12]:{type:"social_media",lC:new Set([...B2l,zJ.uGb])},[5]:{type:"education",lC:new Set([...B2l,zJ.uGb])},[14]:{type:"videos",lC:new Set([...B2l,zJ.uGb])},[10]:{type:"print_products",lC:new Set([...B2l,zJ.uGb])},[15]:{type:"websites",lC:new Set([...B2l,zJ.uGb])},[1]:{type:"custom_size",lC:new Set([zJ.y1g,
+zJ.xNf])},[2]:{type:"upload",lC:new Set([zJ.Avj])},[8]:{type:"more",lC:new Set([zJ.uGb])}};D2l=new Set([__c.yJ.Gfd,__c.yJ.SNf]);__c.E2l=new Set(Object.values(__c.yJ).filter(a=>!D2l.has(a)));__c.nNj={N8p:__c.C2l,$Yl:zJ,aZl:__c.yJ,hKq:__c.E2l};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/14_sourcemaps/3854950f8adbda27.js.map

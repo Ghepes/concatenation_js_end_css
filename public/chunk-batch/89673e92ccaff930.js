@@ -1,0 +1,9 @@
+;// __FILE_CONTENT_FOR__:89673e92ccaff930.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[645970],{
+
+/***/ 390482:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(845574);__web_req__(157643);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var VGo=__webpack_require__(400770),WGo=VGo.action,XGo=VGo.observable,YGo=VGo.reaction;var ZGo=__webpack_require__(613444).jsx;var $Go=__webpack_require__,aHo=$Go(208463),bHo=$Go.n_x(aHo)();var cHo=__webpack_require__(366533),dHo=cHo.useEffect,eHo=cHo.useRef,fHo=cHo.useState;var gHo=class{static G(a){__c.Q(a,{csa:XGo.shallow,I6j:WGo})}I6j(a){this.RLd.has(a.id)||(this.RLd.add(a.id),this.csa.push(a))}x2a(){this.RLd.clear()}c6f(){this.x5b()}constructor({Tsa:a}){this.Tsa=(gHo.G(this),void 0);this.RLd=new Set;this.csa=[];this.Tsa=a;this.Nvd=__c.$e(WGo(()=>{this.Tsa({Nx:this.csa});this.csa=[]}),200);this.x5b=YGo(()=>this.csa.length,b=>{b!==0&&this.Nvd()})}};var hHo=({children:a,MGa:b,ie:c,B7b:d="default"})=>{const e=eHo(null),[f,g]=fHo(!1);dHo(()=>{const h=__c.m(e.current,"Incorrect usage of VisibilityHandler: ref must not be null"),k=c.observe(h,l=>{!f&&l&&(g(!0),k(),b())});return()=>{k()}});return ZGo("div",{className:bHo({PqX6RA:d==="inherit-size"}),ref:e,children:a})};__c.iHo=({Tsa:a,B7b:b="default"})=>{const c=new __c.sx;c.fQ(null,"0px");const d=new gHo({Tsa:a});return{Bj:({children:e,tdb:f})=>ZGo(hHo,{MGa:()=>{f.kind==="search_result"&&d.I6j(f)},ie:c,B7b:b,children:e}),x2a:()=>{d.x2a()}}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/8_sourcemaps/89673e92ccaff930.js.map

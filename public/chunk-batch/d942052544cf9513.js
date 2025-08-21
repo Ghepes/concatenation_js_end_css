@@ -1,0 +1,11 @@
+;// __FILE_CONTENT_FOR__:d942052544cf9513.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[678540],{
+
+/***/ 76559:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(967141);__web_req__(450229);__web_req__(768687);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var AMi=__c.AMi;var F2l,G2l;F2l=({children:a,className:b,sFn:c})=>{const [d,e]=(0,__c.IMi)(!1);return AMi("div",{className:(0,__c.EMi)(b,{VIDmNA:c,_59tGwQ:c&&__c.Le.mDc}),...(c?{onMouseEnter:()=>e(!0),onMouseLeave:()=>e(!1)}:{}),children:a({pca:d})})};G2l=({children:a,className:b})=>AMi("div",{className:(0,__c.EMi)("_60tVRw",b),children:a});
+__c.H2l=({la:a,badge:b,color:c,dua:d,variant:e,title:f,subtitle:g,Ia:h,onClick:k,HKo:l})=>{const n=(0,__c.HMi)(null),p=(0,__c.GMi)(()=>typeof h==="function"?h(n):h,[h]),q=__c.ng({default:"xsmall",Jc:"small"}),r=(0,__c.GMi)(()=>f.match(/^\p{Script_Extensions=Latin}+$/u)?1:2,[f]);return AMi(F2l,{className:(0,__c.EMi)({_7VDihQ:!0,_4LJ0hw:l}),sFn:!0,children:({pca:u})=>{u=a&&AMi(a,{pca:u});u=AMi(__c.MMi,{icon:u,size:d,variant:e,color:c});return AMi(__c.gjb,{ref:n,Ia:p,onClick:k,className:"jyMing",children:(0,__c.BMi)(__c.nf,
+{align:"center",spacing:"1u",children:[b&&AMi("div",{className:"K4CPZg",children:b}),u,(0,__c.BMi)(__c.Z,{className:(0,__c.EMi)("JT1fnA",{_59tGwQ:__c.Le.mDc}),rb:"0.5u",children:[AMi(__c.Z,{className:"rdLdPw",children:AMi(__c.nj,{tagName:"div",size:q,weight:"bold",alignment:"center",lineClamp:r,tone:"tertiary",children:f})}),AMi(G2l,{className:"_6D6Q0A",children:AMi(__c.W,{tagName:"div",size:"xsmall",alignment:"center",lineClamp:1,tone:__c.kj,children:g})})]})]})})}})};__c.I2l=__webpack_require__(613444).jsx;__c.J2l=__webpack_require__(813494).Observer;__webpack_require__(366533);var K2l=__webpack_require__,L2l=K2l(208463),M2l=K2l.n_x(L2l)();__c.N2l=({pca:a,children:b})=>(0,__c.I2l)(__c.Z,{className:M2l({oiHgQw:!0,_2LUSsg:a}),children:b});__c.O2l=a=>({pca:b})=>__c.I2l(__c.N2l,{pca:b,children:a});
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/10_sourcemaps/d942052544cf9513.js.map

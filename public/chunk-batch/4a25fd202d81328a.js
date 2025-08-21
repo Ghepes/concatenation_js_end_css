@@ -1,0 +1,12 @@
+;// __FILE_CONTENT_FOR__:4a25fd202d81328a.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[538840],{
+
+/***/ 297866:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Ndj,Odj;Ndj=function(a){let b;"status"in a?b=a:(b=Object.assign(a,{status:"pending"}),a.then(c=>{Object.assign(a,{status:"resolved",value:c});return c},c=>{Object.assign(a,{status:"rejected",error:c})}));switch(b.status){case "pending":throw b;case "resolved":return b.value;case "rejected":throw b.error;default:throw new __c.t(b);}};__c.Pdj=function(a,b){a=a.get(b);a=Ndj(a);return Odj(a.subscribe,a.Lt)};Odj=__webpack_require__(366533).useSyncExternalStore;var Qdj;Qdj=class{constructor(a,b){this.FQk=b;this.OJ=new Set;this.subscribe=c=>{this.OJ.add(c);this.pdi==="inactive"&&(this.pdi="active",this.FQk("active"));return()=>{this.OJ.delete(c);this.OJ.size===0&&(this.pdi="inactive",this.FQk("inactive"))}};this.Lt=()=>this.value;this.value=a;this.pdi="inactive"}};
+__c.Rdj=class{has(a){a=this.EQa(a);return this.cache.has(a)}load(a){const b=this.EQa(a),c=this.cache.get(b);c?(this.cache.delete(b),this.cache.set(b,c)):this.insert(b,this.loader(a),a)}insert(a,b,c){b=b.then(d=>new Qdj(d,e=>this.F4n(e,c)));this.cache.set(a,[b,c]);this.bGf.set(a,setTimeout(()=>{this.E3f(a)},3E5));this.cache.size>40&&this.errorService.warning("[DataLoader] Cache limit exceeded.",{extra:new Map([["cacheSize",this.cache.size]])})}get(a){const b=this.EQa(a),c=()=>{var d;return(d=this.cache.get(b))===
+null||d===void 0?void 0:d[0]};c()||this.load(a);return __c.m(c())}delete(a){a=this.EQa(a);this.E3f(a)}constructor(a){this.cache=new Map;this.bGf=new Map;this.E3f=b=>{this.cache.delete(b);this.bGf.delete(b)};this.F4n=(b,c)=>{const d=this.EQa(c);b==="inactive"?(this.cache.size>20&&this.E3f(d),this.bGf.set(d,setTimeout(()=>{this.E3f(d)},3E5))):b==="active"&&(b=this.bGf.get(d),b!=null&&(clearTimeout(b),this.bGf.delete(d)))};this.loader=a.loader;this.EQa=a.EQa;this.errorService=a.errorService}};
+__c.Rdj.prototype.oMg=__c.ea(337);__c.Rdj.prototype.Nfg=__c.ea(336);
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/11_sourcemaps/4a25fd202d81328a.js.map

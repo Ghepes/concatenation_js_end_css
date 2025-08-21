@@ -1,0 +1,11 @@
+;// __FILE_CONTENT_FOR__:54162377a5aa8eb2.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[924832],{
+
+/***/ 950393:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(157643);__web_req__(66559);__web_req__(681883);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var Koi=__webpack_require__(613444),Loi=Koi.Fragment,fC=Koi.jsx,Moi=Koi.jsxs;var Noi=__webpack_require__(366533),Ooi=Noi.memo,Poi=Noi.useRef;var Qoi=__webpack_require__,Roi=Qoi(208463),Soi=Qoi.n_x(Roi)();var Toi=__webpack_require__(833299),Uoi=Toi._K,Voi=Toi.Ay;var Woi=__webpack_require__.p+"images/612bc46c9b7793c06a5a012d3f97291a.svg";__c.Xoi=()=>fC("div",{className:"jO0zfQ",children:fC("img",{src:Woi,className:"JWsyGA",alt:""})});var Yoi,bpi;__c.Zoi=Ooi(()=>Moi(Loi,{children:[fC(__c.goi,{lines:3,index:1}),fC(Yoi,{Tze:2,count:4})]}));Yoi=Ooi(({Tze:a=0,count:b})=>fC(Loi,{children:Array(b).fill(0).map((c,d)=>fC(__c.hoi,{index:a+d},a+d))}));__c.$oi=Ooi(()=>fC(__c.If,{shape:"rectangle",index:-1}));
+__c.gC=Ooi(({mode:a})=>{const b=__c.ng({default:"sheet",Aa:"backdrop"});a=a&&a!=="responsive"?a:b;switch(a){case "backdrop":return Moi("div",{className:"Rk9SSw",children:[fC("div",{className:"_nDs6w",children:fC(__c.Z,{padding:"4u",children:Moi(__c.nf,{spacing:"2u",children:[fC(__c.Rg,{index:0}),fC(__c.Zoi,{})]})})}),fC("div",{className:"LbCINQ",children:fC(__c.$oi,{})})]});case "sheet":return fC(__c.Z,{padding:"3u",width:"full",children:Moi(__c.nf,{spacing:"2u",children:[fC(__c.Rg,{index:0}),fC(__c.Zoi,
+{})]})});default:throw new __c.t(a);}});__c.api=Ooi(()=>fC(__c.Rh,{open:!0,level:3,children:fC(__c.Xoi,{})}));bpi=Ooi(({visible:a,Gj:b})=>fC("div",{className:Soi("ukbPxw",{yQnRcw:a}),ref:b,children:fC(__c.Qz,{size:"large"})}));__c.cpi=Ooi(({open:a,Vc:b})=>{const c=Poi(null);return fC(Voi,{in:a,timeout:{enter:0,exit:250},mountOnEnter:!0,unmountOnExit:!0,appear:!0,nodeRef:c,onExited:b,children:d=>fC(bpi,{visible:d===Uoi,Gj:c})})});
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/10_sourcemaps/54162377a5aa8eb2.js.map
