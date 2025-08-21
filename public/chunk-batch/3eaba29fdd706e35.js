@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[825584],{
+
+/***/ 541329:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var L=__c.L;var z=__c.z;var H=__c.H;__c.sTc=H(()=>({type:z("A?",1,"USER_PRINCIPAL"),user:L(1),brand:L(2)}));__c.tTc=H(()=>({type:z("A?",2,"GROUP_PRINCIPAL"),group:L(1),brand:L(2)}));var uTc=__c.K(()=>[1,"ORGANIZATION_ADMIN",2,"ORGANIZATION_BRAND_MANAGER",3,"BRAND_OWNER",4,"BRAND_ADMIN",5,"BRAND_DESIGNER"]);__c.vTc=H(()=>({type:z("A?",3,"BRAND_PRINCIPAL"),brand:L(1),role:__c.Oa(38,uTc)}));__c.wTc=H(()=>({type:z("A?",4,"SHARE_PRINCIPAL"),token:L(1),brand:__c.M(2)}));__c.xTc=H(()=>({type:z("A?",5,"ORG_PRINCIPAL"),organization:L(39),role:__c.Oa(40,uTc)}));__c.yTc=H(()=>({type:z("A?",6,"ORG_BRAND_PRINCIPAL"),organization:L(41),brand:L(42),role:__c.Oa(43,uTc)}));var zTc=__c.Ta(()=>({type:[1,__c.sTc,2,__c.tTc,3,__c.vTc,4,__c.wTc,5,__c.xTc,6,__c.yTc]}),()=>({}));var ATc=__c.K(()=>[1,5,2,3,4],1);__c.BTc=H(()=>({type:z("A?",1,"USER"),userId:L(1)}));__c.CTc=H(()=>({type:z("A?",2,"FOLDER"),mb:L(1)}));__c.DTc=H(()=>({type:z("A?",3,"MANUAL")}));var ETc=__c.Ta(()=>({type:[1,__c.BTc,2,__c.CTc,3,__c.DTc]}),()=>({}));__c.FTc=H(()=>({kb:__c.C(1,zTc),access:__c.Ma(2,ATc),origin:__c.C(3,ETc),version:__c.ac(4)}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/3eaba29fdd706e35.js.map

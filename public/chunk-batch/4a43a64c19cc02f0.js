@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[586992],{
+
+/***/ 911402:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(827899);__web_req__(891110);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {var L=__c.L;var La=__c.La;var z=__c.z;var J1h;var H=__c.H;var M=__c.M;J1h=__c.J1h=()=>({gr:M(1)});__c.K1h=H(()=>({...J1h(),type:z("A?",21,"BRAND_VOICE"),hM:__c.E(41,__c.z1h)}));__c.L1h=H(()=>({...J1h(),type:z("A?",23,"CHART"),eWa:__c.E(41,__c.x1h)}));__c.M1h=H(()=>({...J1h(),type:z("A?",24,"FLEXIBLE"),resources:La(41,__c.u1h)}));__c.TA=H(()=>({summary:M(1),urd:__c.gc(2),fFh:__c.gc(3),si:M(4)}));__c.N1h=H(()=>({...J1h(),type:z("A?",25,"LOGO"),resources:La(41,__c.u1h)}));__c.O1h=H(()=>({ib:L(1),hM:__c.E(2,__c.z1h)}));__c.P1h=()=>({ib:L(1),kg:L(2),si:L(3)});__c.Q1h=H(()=>({...J1h(),type:z("A?",22,"COLOR"),Wt:La(41,__c.LA)}));__c.R1h=H(()=>({...__c.P1h(),type:z("A?",13,"COLOR"),content:__c.C(31,__c.Q1h)}));__c.S1h=H(()=>({id:L(1),Aw:La(2,__c.LA),description:M(3),si:M(4)}));__c.T1h=H(()=>({ib:L(1),kg:L(2),name:M(3),si:M(4)}));__c.U1h=H(()=>({...J1h(),type:z("A?",26,"FONT"),SK:__c.E(41,__c.NA)}));__c.V1h=H(()=>({...__c.P1h(),type:z("A?",16,"TEXT_STYLE"),content:__c.C(31,__c.U1h)}));__c.W1h=H(()=>({id:L(1),Aw:La(2,__c.NA)}));
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=sourcemaps/4a43a64c19cc02f0.js.map
