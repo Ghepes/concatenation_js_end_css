@@ -1,0 +1,12 @@
+;// __FILE_CONTENT_FOR__:7078e4ca814dbac3.js
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[168793],{
+
+/***/ 48947:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(912436);__web_req__(142810);__web_req__(173055);self._ebd5e19490e9b70e7436d6c497657170 = self._ebd5e19490e9b70e7436d6c497657170 || {};(function(__c) {__c.ggj=class{dj(a,b){var c=this.history,d;if(this.eAk)if((d=(new URLSearchParams(window.location.search)).get(this.j0k))&&d!=="false"){a=new URL(a,window.location.origin);var e=new URLSearchParams(a.search);e.set(this.j0k,d);d=`${a.pathname}?${e.toString()}`}else d=a;else d=a;return __c.Uh({type:"react-router",history:c,to:d,target:this.eAk?b?.target:"_self",Link:this.Link})}async executeAction(a){if(a.target==="_blank")return __c.K5a({location:a.to,YHe:void 0});this.history.push(a.to);return{oNa:!1}}constructor(a,
+b,c=__c.b_a){this.history=a;this.eAk=b;this.Link=c;this.j0k="continue_in_browser"}};__c.hgj=class extends __c.ggj{async JP(a,b){a=this.OBa(a,b);return new __c.Vfj({oNa:(await this.executeAction(a)).oNa})}async M_a(a,b){a=this.tic(a,b);await this.executeAction(a);return new __c.Hfj}async Hr(a,b){a=this.Rk(a,b);await this.executeAction(a);return new __c.Ifj}async EQ(a,b){a=this.nB(a,b);await this.executeAction(a);return new __c.Pfj}async O7a(a,b){a=this.Szb(a,b);await this.executeAction(a);return new __c.Kfj}async $Hc(a,b){a=this.Izd(a,b);await this.executeAction(a);return new __c.Mfj}async ZHc(a,
+b){a=this.Hzd(a,b);await this.executeAction(a);return new __c.Lfj}async aIc(a,b){a=this.Jzd(a,b);await this.executeAction(a);return new __c.Nfj}async WHc(a,b){a=this.Gzd(a,b);await this.executeAction(a);return new __c.Gfj}async VHc(a,b){a=this.s1c(a,b);await this.executeAction(a);return new __c.Ffj}async NCb(a,b){a=this.Rzb(a,b);await this.executeAction(a);return new __c.Jfj}async a7c(a,b){a=this.Mzd(a,b);await this.executeAction(a);return new __c.Ofj}async fIc(a,b){a=this.Nzd(a,b);await this.executeAction(a);
+return new __c.Qfj}constructor(...a){super(...a);this.Nzd=this.Mzd=this.Rzb=this.s1c=this.Gzd=this.Jzd=this.Hzd=this.Izd=this.Szb=this.nB=this.Rk=this.tic=this.OBa=this.ft=(b,c)=>this.dj(b.path,{target:__c.Efj(b.target)??c?.target})}};
+}).call(self, self._ebd5e19490e9b70e7436d6c497657170);}
+
+}])
+//# sourceMappingURL=https://chunk-composing.canva.com/chunk-batch-sm/11_sourcemaps/7078e4ca814dbac3.js.map
